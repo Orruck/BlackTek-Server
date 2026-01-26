@@ -7,6 +7,9 @@
 
 # Build Output
 /build
+Black-Tek-Server
+Black-Tek-Server.make
+Makefile
 
 *.dll
 *.exe
@@ -23,3 +26,6 @@ config.lua
 
 # Docker volumes
 db-data
+
+# Myaac files
+data/myaac-xml-files
