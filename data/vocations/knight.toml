@@ -20,7 +20,7 @@ damagemodifiers = [
     {armor = 1.0, defense = 1.0, distance = 1.0, melee = 1.0}
 ]
 skillrates = [
-    {magic = 3.0, fist = 1.1, club = 1.1, sword = 1.1, axe = 1.1, distance = 1.4, shield = 1.1, fishing = 1.1}
+    {magic = 3.0, unarmed = 1.1, onehand = 1.1, twohand = 1.1, distance = 1.4, shield = 1.1, fishing = 1.1}
 ]
 
 [EliteKnight]
@@ -46,5 +46,5 @@ damagemodifiers = [
     {armor = 1.0, defense = 1.0, distance = 1.0, melee = 1.0}
 ]
 skillrates = [
-    {magic = 3.0, fist = 1.1, club = 1.1, sword = 1.1, axe = 1.1, distance = 1.4, shield = 1.1, fishing = 1.1}
+    {magic = 3.0, unarmed = 1.1, onehand = 1.1, twohand = 1.1, distance = 1.4, shield = 1.1, fishing = 1.1}
 ]

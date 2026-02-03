@@ -1269,10 +1269,10 @@ void LuaScriptInterface::registerFunctions()
 	registerEnum(CONDITION_PARAM_TICKINTERVAL)
 	registerEnum(CONDITION_PARAM_FORCEUPDATE)
 	registerEnum(CONDITION_PARAM_SKILL_MELEE)
-	registerEnum(CONDITION_PARAM_SKILL_FIST)
-	registerEnum(CONDITION_PARAM_SKILL_CLUB)
-	registerEnum(CONDITION_PARAM_SKILL_SWORD)
-	registerEnum(CONDITION_PARAM_SKILL_AXE)
+	registerEnum(CONDITION_PARAM_SKILL_UNARMED)
+	registerEnum(CONDITION_PARAM_SKILL_ONEHAND)
+	registerEnum(CONDITION_PARAM_SKILL_TWOHAND)
+	// registerEnum(CONDITION_PARAM_SKILL_AXE)
 	registerEnum(CONDITION_PARAM_SKILL_DISTANCE)
 	registerEnum(CONDITION_PARAM_SKILL_SHIELD)
 	registerEnum(CONDITION_PARAM_SKILL_FISHING)
@@ -1284,10 +1284,10 @@ void LuaScriptInterface::registerFunctions()
 	registerEnum(CONDITION_PARAM_STAT_MAGICPOINTSPERCENT)
 	registerEnum(CONDITION_PARAM_PERIODICDAMAGE)
 	registerEnum(CONDITION_PARAM_SKILL_MELEEPERCENT)
-	registerEnum(CONDITION_PARAM_SKILL_FISTPERCENT)
-	registerEnum(CONDITION_PARAM_SKILL_CLUBPERCENT)
-	registerEnum(CONDITION_PARAM_SKILL_SWORDPERCENT)
-	registerEnum(CONDITION_PARAM_SKILL_AXEPERCENT)
+	registerEnum(CONDITION_PARAM_SKILL_UNARMEDPERCENT)
+	registerEnum(CONDITION_PARAM_SKILL_ONEHANDPERCENT)
+	registerEnum(CONDITION_PARAM_SKILL_TWOHANDPERCENT)
+	// registerEnum(CONDITION_PARAM_SKILL_AXEPERCENT)
 	registerEnum(CONDITION_PARAM_SKILL_DISTANCEPERCENT)
 	registerEnum(CONDITION_PARAM_SKILL_SHIELDPERCENT)
 	registerEnum(CONDITION_PARAM_SKILL_FISHINGPERCENT)
@@ -1701,10 +1701,10 @@ void LuaScriptInterface::registerFunctions()
 
 	registerEnum(VOCATION_NONE)
 
-	registerEnum(SKILL_FIST)
-	registerEnum(SKILL_CLUB)
-	registerEnum(SKILL_SWORD)
-	registerEnum(SKILL_AXE)
+	registerEnum(SKILL_UNARMED)
+	registerEnum(SKILL_ONEHAND)
+	registerEnum(SKILL_TWOHAND)
+	// registerEnum(SKILL_AXE)
 	registerEnum(SKILL_DISTANCE)
 	registerEnum(SKILL_SHIELD)
 	registerEnum(SKILL_FISHING)
@@ -1786,9 +1786,8 @@ void LuaScriptInterface::registerFunctions()
 	registerEnum(TILESTATE_SUPPORTS_HANGABLE)
 
 	registerEnum(WEAPON_NONE)
-	registerEnum(WEAPON_SWORD)
-	registerEnum(WEAPON_CLUB)
-	registerEnum(WEAPON_AXE)
+	registerEnum(WEAPON_TWOHAND)
+	registerEnum(WEAPON_ONEHAND)
 	registerEnum(WEAPON_SHIELD)
 	registerEnum(WEAPON_DISTANCE)
 	registerEnum(WEAPON_WAND)
@@ -20183,9 +20182,8 @@ int LuaScriptInterface::luaCreateWeapon(lua_State* L)
 
 	WeaponType_t type = getNumber<WeaponType_t>(L, 2);
 	switch (type) {
-		case WEAPON_SWORD:
-		case WEAPON_AXE:
-		case WEAPON_CLUB: {
+		case WEAPON_TWOHAND:
+		case WEAPON_ONEHAND: {
 			WeaponMelee* weapon = new WeaponMelee(getScriptEnv()->getScriptInterface());
 			if (weapon) {
 				pushUserdata<WeaponMelee>(L, weapon);

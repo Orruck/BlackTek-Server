@@ -21,7 +21,7 @@ combat = [
     {armor = 1.0, defense = 1.0, distance = 1.0, melee = 1.0}
 ]
 skillrates = [
-    {magic = 1.1, fist = 1.5, club = 2.0, sword = 2.0, axe = 2.0, distance = 2.0, shield = 1.5, fishing = 1.1}
+    {magic = 1.1, unarmed = 1.5, onehand = 2.0, twohand = 2.0, distance = 2.0, shield = 1.5, fishing = 1.1}
 ]
 
 [MasterSorcerer]
@@ -48,5 +48,5 @@ damagemodifiers = [
     {armor = 1.0, defense = 1.0, distance = 1.0, melee = 1.0}
 ]
 skillrates = [
-    {magic = 1.1, fist = 1.5, club = 2.0, sword = 2.0, axe = 2.0, distance = 2.0, shield = 1.5, fishing = 1.1}
+    {magic = 1.1, unarmed = 1.5, onehand = 2.0, twohand = 2.0, distance = 2.0, shield = 1.5, fishing = 1.1}
 ]

@@ -78,9 +78,9 @@ flags = [
   "isalwayspremium"
 ]
 
-[Admin]
+[God]
 id = 6
-name = "Administrator"
+name = "God"
 access = true
 maxdepotitems = 10000
 maxvipentries = 2000

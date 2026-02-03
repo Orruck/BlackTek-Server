@@ -766,17 +766,17 @@ std::string getSpecialSkillName(uint8_t skillid)
 std::string getSkillName(uint8_t skillid)
 {
 	switch (skillid) {
-		case SKILL_FIST:
-			return "fist fighting";
+		case SKILL_UNARMED:
+			return "unarmed fighting";
 
-		case SKILL_CLUB:
-			return "club fighting";
+		case SKILL_ONEHAND:
+			return "one-hand fighting";
 
-		case SKILL_SWORD:
-			return "sword fighting";
+		case SKILL_TWOHAND:
+			return "two-hand fighting";
 
-		case SKILL_AXE:
-			return "axe fighting";
+		//case SKILL_AXE:
+		//	return "axe fighting";
 
 		case SKILL_DISTANCE:
 			return "distance fighting";
@@ -865,9 +865,8 @@ bool booleanString(std::string_view str)
 std::string getWeaponName(WeaponType_t weaponType)
 {
 	switch (weaponType) {
-		case WEAPON_SWORD: return "sword";
-		case WEAPON_CLUB: return "club";
-		case WEAPON_AXE: return "axe";
+		case WEAPON_TWOHAND: return "two-hand";
+		case WEAPON_ONEHAND: return "one-hand";
 		case WEAPON_DISTANCE: return "distance";
 		case WEAPON_WAND: return "wand";
 		case WEAPON_AMMO: return "ammunition";

@@ -84,13 +84,12 @@ void AccountManager::initialize()
 			if (const auto& skill_data = option_data["skills"].as_table()) 
 			{
 				const auto& skill = *skill_data;
-				option.skills[0] = skill["fist"].value_or(1);
-				option.skills[1] = skill["club"].value_or(1);
-				option.skills[2] = skill["sword"].value_or(1);
-				option.skills[3] = skill["axe"].value_or(1);
-				option.skills[4] = skill["distance"].value_or(1);
-				option.skills[5] = skill["shield"].value_or(1);
-				option.skills[6] = skill["fishing"].value_or(1);
+				option.skills[0] = skill["unarmed"].value_or(1);
+				option.skills[1] = skill["onehand"].value_or(1);
+				option.skills[2] = skill["twohand"].value_or(1);
+				option.skills[3] = skill["distance"].value_or(1);
+				option.skills[4] = skill["shield"].value_or(1);
+				option.skills[5] = skill["fishing"].value_or(1);
 				option.magiclevel = skill["magiclevel"].value_or(1);
 			} // todo else { // log warning / error}
 

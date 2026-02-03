@@ -98,12 +98,12 @@ function ItemType:getWeaponString()
 	local weaponType = self:getWeaponType()
 	local weaponString = "unknown"
 
-	if weaponType == WEAPON_CLUB then
-		weaponString = "blunt instrument"
-	elseif weaponType == WEAPON_SWORD then
-		weaponString = "stabbing weapon"
-	elseif weaponType == WEAPON_AXE then
+	if weaponType == WEAPON_ONEHAND then
 		weaponString = "cutting weapon"
+	elseif weaponType == WEAPON_TWOHAND then
+		weaponString = "stabbing weapon"
+	-- elseif weaponType == WEAPON_AXE then
+	-- 	weaponString = "blunt instrument"
 	elseif weaponType == WEAPON_DISTANCE then
 		weaponString = self:isBow() and "firearm" or "missile"
 	elseif weaponType == WEAPON_WAND then

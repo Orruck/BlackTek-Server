@@ -21,7 +21,7 @@ damagemodifiers = [
     {armor = 1.0, defense = 1.0, distance = 1.0, melee = 1.0}
 ]
 skillrates = [
-    {magic = 1.1, fist = 1.5, club = 1.8, sword = 1.8, axe = 1.8, distance = 1.8, shield = 1.5, fishing = 1.1}
+    {magic = 1.1, unarmed = 1.5, onehand = 1.8, twohand = 1.8, distance = 1.8, shield = 1.5, fishing = 1.1}
 ]
 
 [ElderDruid]
@@ -47,5 +47,5 @@ damagemodifiers = [
     {armor = 1.0, defense = 1.0, distance = 1.0, melee = 1.0}
 ]
 skillrates = [
-    {magic = 1.1, fist = 1.5, club = 1.8, sword = 1.8, axe = 1.8, distance = 1.8, shield = 1.5, fishing = 1.1}
+    {magic = 1.1, unarmed = 1.5, onehand = 1.8, twohand = 1.8, distance = 1.8, shield = 1.5, fishing = 1.1}
 ]

@@ -8,7 +8,7 @@ vocation = 0
 sex = "male"
 towns = [1, 2, 3]
 outfit = {id = 128, head = 1, body = 1, legs = 1, feet = 1, mount = 0}
-skills = {fist = 1, sword = 1, axe = 1, club = 1, shield = 1, fishing = 1}
+skills = {unarmed = 1, twohand = 1, onehand = 1, shield = 1, fishing = 1}
 
 [Resident]
 startingLevel = 1
@@ -20,4 +20,4 @@ vocation = 0
 sex = "female"
 towns = [1, 2, 3]
 outfit = {id = 136, head = 1, body = 1, legs = 1, feet = 1, mount = 0}
-skills = {fist = 1, sword = 1, axe = 1, club = 1, shield = 1, fishing = 1}
+skills = {unarmed = 1, twohand = 1, onehand = 1, shield = 1, fishing = 1}

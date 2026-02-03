@@ -754,13 +754,10 @@ void Combat::addDistanceEffect(const CreaturePtr& caster, const Position& fromPo
 		}
 
 		switch (player->getWeaponType()) {
-			case WEAPON_AXE:
-				effect = CONST_ANI_WHIRLWINDAXE;
-				break;
-			case WEAPON_SWORD:
+			case WEAPON_TWOHAND:
 				effect = CONST_ANI_WHIRLWINDSWORD;
 				break;
-			case WEAPON_CLUB:
+			case WEAPON_ONEHAND:
 				effect = CONST_ANI_WHIRLWINDCLUB;
 				break;
 			default:

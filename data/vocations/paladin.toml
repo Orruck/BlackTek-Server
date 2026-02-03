@@ -21,7 +21,7 @@ damagemodifiers = [
     {armor = 1.0, defense = 1.0, distance = 1.0, melee = 1.0}
 ]
 skillrates = [
-    {magic = 1.4, fist = 1.2, club = 1.2, sword = 1.2, axe = 1.2, distance = 1.1, shield = 1.1, fishing = 1.1}
+    {magic = 1.4, unarmed = 1.2, onehand = 1.2, twohand = 1.2, distance = 1.1, shield = 1.1, fishing = 1.1}
 ]
 
 [RoyalPaladin]
@@ -47,5 +47,5 @@ damagemodifiers = [
     {armor = 1.0, defense = 1.0, distance = 1.0, melee = 1.0}
 ]
 skillrates = [
-    {magic = 1.4, fist = 1.2, club = 1.2, sword = 1.2, axe = 1.2, distance = 1.1, shield = 1.1, fishing = 1.1}
+    {magic = 1.4, unarmed = 1.2, onehand = 1.2, twohand = 1.2, distance = 1.1, shield = 1.1, fishing = 1.1}
 ]

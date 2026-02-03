@@ -8737,7 +8737,7 @@ weight = 90
 slotType = "ring"
 decayTo = 0
 transformDeEquipTo = 2207
-skillSword = 4
+skillTwohand = 4
 duration = 1800
 showduration = true
 resumable = true
@@ -8750,7 +8750,7 @@ weight = 90
 slotType = "ring"
 decayTo = 0
 transformDeEquipTo = 2208
-skillAxe = 4
+skillTwohand = 4
 duration = 1800
 showduration = true
 resumable = true
@@ -8763,7 +8763,7 @@ weight = 90
 slotType = "ring"
 decayTo = 0
 transformDeEquipTo = 2209
-skillClub = 4
+skillOnehand = 4
 duration = 1800
 showduration = true
 resumable = true
@@ -9577,7 +9577,7 @@ description = "This cyclopean hammer seems to be an awesome smithing tool."
 weight = 6800
 defense = 14
 attack = 24
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 2322
@@ -9971,7 +9971,7 @@ name = "sword"
 weight = 3500
 defense = 12
 attack = 14
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 imbuementslots = 2
 
@@ -9982,7 +9982,7 @@ name = "two handed sword"
 weight = 7000
 defense = 25
 attack = 30
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -9992,7 +9992,7 @@ name = "battle axe"
 weight = 5000
 defense = 10
 attack = 25
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -10002,7 +10002,7 @@ name = "dagger"
 weight = 950
 defense = 6
 attack = 8
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 2380
@@ -10011,7 +10011,7 @@ name = "hand axe"
 weight = 1800
 defense = 5
 attack = 10
-weaponType = "axe"
+weaponType = "onehand"
 
 [[items]]
 id = 2381
@@ -10020,7 +10020,7 @@ name = "halberd"
 weight = 9000
 defense = 14
 attack = 35
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -10030,7 +10030,7 @@ name = "club"
 weight = 2500
 defense = 7
 attack = 7
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 2383
@@ -10039,7 +10039,7 @@ name = "spike sword"
 weight = 5000
 defense = 21
 attack = 24
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 2
 imbuementslots = 2
 
@@ -10050,7 +10050,7 @@ name = "rapier"
 weight = 1500
 defense = 8
 attack = 10
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -10060,7 +10060,7 @@ name = "sabre"
 weight = 2500
 defense = 10
 attack = 12
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -10070,7 +10070,7 @@ name = "axe"
 weight = 4000
 defense = 6
 attack = 12
-weaponType = "axe"
+weaponType = "onehand"
 
 [[items]]
 id = 2387
@@ -10079,7 +10079,7 @@ name = "double axe"
 weight = 7000
 defense = 12
 attack = 35
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -10089,7 +10089,7 @@ name = "hatchet"
 weight = 3500
 defense = 8
 attack = 15
-weaponType = "axe"
+weaponType = "onehand"
 
 [[items]]
 id = 2389
@@ -10110,7 +10110,7 @@ description = "It's the magic Cyclopmania Sword."
 weight = 4300
 defense = 40
 attack = 55
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -10120,7 +10120,7 @@ name = "war hammer"
 weight = 8500
 defense = 10
 attack = 45
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -10133,7 +10133,7 @@ weight = 2300
 defense = 20
 attack = 24
 elementFire = 11
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -10144,7 +10144,7 @@ description = "This sword has been forged by ancient giants."
 weight = 18000
 defense = 22
 attack = 46
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -10155,7 +10155,7 @@ name = "morning star"
 weight = 5400
 defense = 11
 attack = 25
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 2395
@@ -10164,7 +10164,7 @@ name = "carlin sword"
 weight = 4000
 defense = 13
 attack = 15
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -10175,7 +10175,7 @@ description = "A deadly but fragile weapon."
 weight = 1500
 attack = 42
 defense = 1
-weaponType = "sword"
+weaponType = "onehand"
 elementIce = 18
 charges = 1
 
@@ -10186,7 +10186,7 @@ name = "longsword"
 weight = 4200
 defense = 14
 attack = 17
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 2398
@@ -10195,7 +10195,7 @@ name = "mace"
 weight = 3800
 defense = 11
 attack = 16
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 2399
@@ -10216,7 +10216,7 @@ description = "It's the Sword of Valor."
 weight = 4200
 defense = 35
 attack = 48
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 3
 imbuementslots = 2
 
@@ -10227,7 +10227,7 @@ name = "staff"
 weight = 3800
 defense = 25
 attack = 10
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -10237,7 +10237,7 @@ name = "silver dagger"
 weight = 1020
 defense = 7
 attack = 9
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 2403
@@ -10246,7 +10246,7 @@ name = "knife"
 weight = 420
 defense = 5
 attack = 5
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 2404
@@ -10255,7 +10255,7 @@ name = "combat knife"
 weight = 870
 defense = 6
 attack = 8
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 2405
@@ -10264,7 +10264,7 @@ name = "sickle"
 weight = 1050
 defense = 4
 attack = 5
-weaponType = "axe"
+weaponType = "onehand"
 
 [[items]]
 id = 2406
@@ -10273,7 +10273,7 @@ name = "short sword"
 weight = 3500
 defense = 11
 attack = 11
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 2407
@@ -10283,7 +10283,7 @@ description = "The blade shimmers in light blue."
 weight = 2900
 defense = 30
 attack = 36
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 imbuementslots = 2
 
@@ -10295,7 +10295,7 @@ description = "Strong powers flow in this magic sword."
 weight = 6400
 defense = 38
 attack = 53
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -10305,7 +10305,7 @@ name = "serpent sword"
 weight = 4100
 defense = 15
 attack = 18
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 elementEarth = 8
 
@@ -10329,7 +10329,7 @@ weight = 880
 defense = 8
 attack = 18
 elementEarth = 2
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 2412
@@ -10338,7 +10338,7 @@ name = "katana"
 weight = 3100
 defense = 12
 attack = 16
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -10348,7 +10348,7 @@ name = "broadsword"
 weight = 5250
 defense = 23
 attack = 26
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -10360,7 +10360,7 @@ description = "The extraordinary sharp blade penetrates every armor."
 weight = 6700
 defense = 16
 attack = 47
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -10372,7 +10372,7 @@ description = "A masterpiece of a dwarven smith."
 weight = 9000
 defense = 22
 attack = 52
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 2
 
@@ -10384,7 +10384,7 @@ description = "It may come in handy sometime."
 weight = 2100
 defense = 6
 attack = 5
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 2417
@@ -10393,7 +10393,7 @@ name = "battle hammer"
 weight = 6800
 defense = 14
 attack = 24
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 2418
@@ -10402,7 +10402,7 @@ name = "golden sickle"
 weight = 1950
 defense = 6
 attack = 13
-weaponType = "axe"
+weaponType = "onehand"
 
 [[items]]
 id = 2419
@@ -10411,7 +10411,7 @@ name = "scimitar"
 weight = 2900
 defense = 13
 attack = 19
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -10421,7 +10421,7 @@ name = "machete"
 weight = 1650
 defense = 9
 attack = 12
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 2421
@@ -10431,7 +10431,7 @@ description = "It is blessed by the gods."
 weight = 12500
 defense = 35
 attack = 49
-weaponType = "club"
+weaponType = "onehand"
 extradef = 1
 imbuementslots = 2
 
@@ -10442,7 +10442,7 @@ name = "iron hammer"
 weight = 6600
 defense = 10
 attack = 18
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 2423
@@ -10451,7 +10451,7 @@ name = "clerical mace"
 weight = 5800
 defense = 15
 attack = 28
-weaponType = "club"
+weaponType = "onehand"
 extradef = 1
 imbuementslots = 2
 
@@ -10463,7 +10463,7 @@ description = "You feel an aura of protection."
 weight = 6700
 defense = 30
 attack = 41
-weaponType = "club"
+weaponType = "onehand"
 extradef = 2
 imbuementslots = 2
 
@@ -10474,7 +10474,7 @@ name = "obsidian lance"
 weight = 8000
 defense = 10
 attack = 34
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -10484,7 +10484,7 @@ name = "naginata"
 weight = 7800
 defense = 25
 attack = 39
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -10494,7 +10494,7 @@ name = "guardian halberd"
 weight = 11000
 defense = 15
 attack = 46
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -10505,7 +10505,7 @@ name = "orcish axe"
 weight = 4500
 defense = 12
 attack = 23
-weaponType = "axe"
+weaponType = "onehand"
 
 [[items]]
 id = 2429
@@ -10514,7 +10514,7 @@ name = "barbarian axe"
 weight = 5100
 defense = 18
 attack = 28
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 imbuementslots = 2
 
@@ -10525,7 +10525,7 @@ name = "knight axe"
 weight = 5900
 defense = 21
 attack = 33
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 imbuementslots = 2
 
@@ -10537,7 +10537,7 @@ description = "You feel the power of this mighty axe."
 weight = 9900
 defense = 30
 attack = 50
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 3
 imbuementslots = 1
 
@@ -10550,7 +10550,7 @@ weight = 4000
 defense = 16
 attack = 27
 elementFire = 11
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -10561,7 +10561,7 @@ description = "Temporary magic powers enchant this staff."
 weight = 3800
 defense = 45
 attack = 39
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 decayTo = 2401
 duration = 60
@@ -10573,7 +10573,7 @@ name = "dragon hammer"
 weight = 9700
 defense = 20
 attack = 32
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 2435
@@ -10582,7 +10582,7 @@ name = "dwarven axe"
 weight = 8200
 defense = 19
 attack = 31
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 2
 imbuementslots = 2
 
@@ -10594,7 +10594,7 @@ description = "The staff longs for death."
 weight = 1700
 defense = 12
 attack = 36
-weaponType = "club"
+weaponType = "onehand"
 extradef = 1
 imbuementslots = 2
 
@@ -10605,7 +10605,7 @@ name = "light mace"
 weight = 4100
 defense = 9
 attack = 14
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 2438
@@ -10614,7 +10614,7 @@ name = "epee"
 weight = 1450
 defense = 23
 attack = 37
-weaponType = "sword"
+weaponType = "onehand"
 imbuementslots = 2
 
 [[items]]
@@ -10624,7 +10624,7 @@ name = "daramian mace"
 weight = 6800
 defense = 12
 attack = 21
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 2440
@@ -10633,7 +10633,7 @@ name = "daramian waraxe"
 weight = 5250
 defense = 15
 attack = 39
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -10643,7 +10643,7 @@ name = "daramian axe"
 weight = 4100
 defense = 8
 attack = 17
-weaponType = "axe"
+weaponType = "onehand"
 
 [[items]]
 id = 2442
@@ -10652,7 +10652,7 @@ name = "heavy machete"
 weight = 1840
 defense = 10
 attack = 16
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 2443
@@ -10661,7 +10661,7 @@ name = "ravager's axe"
 weight = 5250
 defense = 14
 attack = 49
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -10673,7 +10673,7 @@ description = "A giant is said to have forged this hammer to take revenge for th
 weight = 7000
 defense = 12
 attack = 48
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -10685,7 +10685,7 @@ weight = 8000
 defense = 16
 attack = 38
 extradef = 1
-weaponType = "club"
+weaponType = "onehand"
 imbuementslots = 2
 
 [[items]]
@@ -10695,7 +10695,7 @@ name = "pharaoh sword"
 weight = 5200
 defense = 23
 attack = 41
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 2
 
 [[items]]
@@ -10705,7 +10705,7 @@ name = "twin axe"
 weight = 6400
 defense = 24
 attack = 45
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -10717,7 +10717,7 @@ description = "It has been reinforced with iron."
 weight = 3500
 defense = 8
 attack = 9
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 2449
@@ -10727,7 +10727,7 @@ description = "It apparently originally belonged to some lesser undead."
 weight = 3900
 defense = 8
 attack = 12
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 2450
@@ -10736,7 +10736,7 @@ name = "bone sword"
 weight = 1900
 defense = 10
 attack = 13
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 2451
@@ -10745,7 +10745,7 @@ name = "djinn blade"
 weight = 2450
 defense = 22
 attack = 38
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 2
 imbuementslots = 2
 
@@ -10757,7 +10757,7 @@ description = "Its tip is made of extremely solid steel."
 weight = 11000
 defense = 15
 attack = 49
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -10769,7 +10769,7 @@ description = "It is enchanted with ancient magic that renders a weak staff into
 weight = 4000
 defense = 30
 attack = 50
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 2
 
@@ -10780,7 +10780,7 @@ name = "war axe"
 weight = 6150
 defense = 10
 attack = 48
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -11625,7 +11625,7 @@ name = "scythe"
 weight = 3000
 defense = 3
 attack = 8
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -20056,7 +20056,7 @@ weight = 4100
 defense = 30
 extradef = 2
 attack = 40
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 3962
@@ -20065,7 +20065,7 @@ name = "beastslayer axe"
 weight = 6150
 defense = 12
 attack = 35
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 imbuementslots = 2
 
@@ -20076,7 +20076,7 @@ name = "templar scytheblade"
 weight = 2900
 defense = 15
 attack = 23
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -20086,7 +20086,7 @@ name = "ripper lance"
 weight = 8000
 defense = 7
 attack = 28
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -20107,7 +20107,7 @@ name = "banana staff"
 weight = 5000
 defense = 15
 attack = 25
-weaponType = "club"
+weaponType = "onehand"
 extradef = 2
 
 [[items]]
@@ -32230,7 +32230,7 @@ name = "Ron the Ripper's sabre"
 weight = 2500
 defense = 10
 attack = 12
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 6102
@@ -34867,7 +34867,7 @@ description = "This holy blade was forged of shattered dreams."
 weight = 6400
 defense = 38
 attack = 50
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 2
 
@@ -35042,7 +35042,7 @@ name = "ruthless axe"
 weight = 5800
 defense = 15
 attack = 50
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 2
 
@@ -39633,7 +39633,7 @@ name = "brutetamer's staff"
 weight = 3800
 defense = 15
 attack = 35
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 description = "Barbarian women are said to use it for conjuring beasts."
 
@@ -39646,7 +39646,7 @@ weight = 4500
 defense = 20
 attack = 42
 slotType = "two-handed"
-weaponType = "axe"
+weaponType = "onehand"
 imbuementslots = 3
 
 [[items]]
@@ -39657,7 +39657,7 @@ description = "Made from a mammoth's legbones, it is one of the favoured weapons
 weight = 4500
 defense = 15
 attack = 30
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 7382
@@ -39666,7 +39666,7 @@ name = "demonrage sword"
 weight = 15000
 defense = 22
 attack = 47
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -39677,7 +39677,7 @@ name = "relic sword"
 weight = 4800
 defense = 24
 attack = 42
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 imbuementslots = 2
 
@@ -39689,7 +39689,7 @@ description = "This sword is only granted to a scrapper of the Svargrond arena."
 weight = 3500
 defense = 25
 attack = 44
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 2
 imbuementslots = 2
 
@@ -39700,7 +39700,7 @@ name = "crimson sword"
 weight = 3600
 defense = 20
 attack = 28
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 imbuementslots = 2
 
@@ -39711,7 +39711,7 @@ name = "mercenary sword"
 weight = 6800
 defense = 27
 attack = 43
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -39721,7 +39721,7 @@ name = "diamond sceptre"
 weight = 1500
 defense = 18
 attack = 34
-weaponType = "club"
+weaponType = "onehand"
 description = "The beautiful jewel on the top of this sceptre is sharp enough to cut through glass."
 
 [[items]]
@@ -39731,7 +39731,7 @@ name = "vile axe"
 weight = 5200
 defense = 19
 attack = 43
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 3
 
 [[items]]
@@ -39741,7 +39741,7 @@ name = "heroic axe"
 weight = 6100
 defense = 24
 attack = 44
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 description = "This axe is only granted to a scrapper of the Svargrond arena."
 imbuementslots = 2
@@ -39753,7 +39753,7 @@ name = "the justice seeker"
 weight = 5000
 defense = 24
 attack = 47
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 3
 description = "This sword is only granted to a warlord of the Svargrond arena."
 
@@ -39764,7 +39764,7 @@ name = "thaian sword"
 weight = 6100
 defense = 29
 attack = 45
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -39775,7 +39775,7 @@ name = "orcish maul"
 weight = 5400
 defense = 18
 attack = 42
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 description = "This club is only granted to a greenhorn of the Svargrond arena."
 imbuementslots = 3
@@ -39841,7 +39841,7 @@ name = "dragon slayer"
 weight = 8200
 defense = 28
 attack = 44
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -39852,7 +39852,7 @@ name = "berserker"
 weight = 13000
 defense = 21
 attack = 48
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -39863,7 +39863,7 @@ name = "assassin dagger"
 weight = 1700
 defense = 12
 attack = 40
-weaponType = "sword"
+weaponType = "onehand"
 extradef = -2
 imbuementslots = 2
 
@@ -39874,7 +39874,7 @@ name = "havoc blade"
 weight = 7200
 defense = 34
 attack = 49
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -39886,7 +39886,7 @@ description = "This sword is only granted to a greenhorn of the Svargrond arena.
 weight = 5900
 defense = 22
 attack = 42
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -39897,7 +39897,7 @@ name = "haunted blade"
 weight = 3100
 defense = 12
 attack = 40
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -39908,7 +39908,7 @@ name = "wyvern fang"
 weight = 2000
 defense = 19
 attack = 32
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 imbuementslots = 2
 
@@ -39919,7 +39919,7 @@ name = "northern star"
 weight = 4200
 defense = 15
 attack = 42
-weaponType = "club"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -39929,7 +39929,7 @@ name = "queen's sceptre"
 weight = 2300
 defense = 19
 attack = 43
-weaponType = "club"
+weaponType = "onehand"
 imbuementslots = 2
 
 [[items]]
@@ -39939,7 +39939,7 @@ name = "ornamented axe"
 weight = 6150
 defense = 22
 attack = 42
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 2
 
 [[items]]
@@ -39949,7 +39949,7 @@ name = "butcher's axe"
 weight = 6300
 defense = 24
 attack = 41
-weaponType = "axe"
+weaponType = "onehand"
 extradef = -2
 imbuementslots = 2
 
@@ -39960,7 +39960,7 @@ name = "titan axe"
 weight = 8100
 defense = 30
 attack = 43
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -39971,7 +39971,7 @@ description = "Floating stones form the tip of this strange weapon, held in plac
 weight = 5500
 defense = 21
 attack = 47
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -39983,7 +39983,7 @@ description = "This club is only granted to a scrapper of the Svargrond arena."
 weight = 7800
 defense = 20
 attack = 44
-weaponType = "club"
+weaponType = "onehand"
 extradef = -2
 imbuementslots = 2
 
@@ -39994,7 +39994,7 @@ name = "bloody edge"
 weight = 5200
 defense = 21
 attack = 43
-weaponType = "sword"
+weaponType = "onehand"
 extradef = -3
 imbuementslots = 2
 
@@ -40005,7 +40005,7 @@ name = "runed sword"
 weight = 4600
 defense = 32
 attack = 45
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 2
 imbuementslots = 2
 
@@ -40016,7 +40016,7 @@ name = "nightmare blade"
 weight = 4600
 defense = 23
 attack = 46
-weaponType = "sword"
+weaponType = "onehand"
 extradef = -3
 imbuementslots = 2
 
@@ -40027,7 +40027,7 @@ name = "dreaded cleaver"
 weight = 3800
 defense = 19
 attack = 40
-weaponType = "axe"
+weaponType = "onehand"
 extradef = -3
 imbuementslots = 2
 
@@ -40038,7 +40038,7 @@ name = "reaper's axe"
 weight = 5900
 defense = 25
 attack = 46
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 2
 
 [[items]]
@@ -40048,7 +40048,7 @@ name = "onyx flail"
 weight = 2600
 defense = 18
 attack = 45
-weaponType = "club"
+weaponType = "onehand"
 imbuementslots = 2
 
 [[items]]
@@ -40058,7 +40058,7 @@ name = "jade hammer"
 weight = 3200
 defense = 20
 attack = 46
-weaponType = "club"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -40068,7 +40068,7 @@ name = "skullcrusher"
 weight = 12000
 defense = 20
 attack = 51
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 2
 
@@ -40079,7 +40079,7 @@ name = "lunar staff"
 weight = 3800
 defense = 25
 attack = 40
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -40090,7 +40090,7 @@ name = "taurus mace"
 weight = 5100
 defense = 18
 attack = 30
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -40100,7 +40100,7 @@ name = "amber staff"
 weight = 3500
 defense = 25
 attack = 43
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -40112,7 +40112,7 @@ description = "Only those who have descended to the deepest depths may wield thi
 weight = 6300
 defense = 21
 attack = 44
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -40123,7 +40123,7 @@ description = "This weapon has to be swung in both hands and requires a lot of s
 weight = 12000
 defense = 15
 attack = 46
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -40134,7 +40134,7 @@ description = "This spectre is only granted to a warlord of the Svarground arena
 weight = 3900
 defense = 21
 attack = 47
-weaponType = "club"
+weaponType = "onehand"
 extradef = 3
 imbuementslots = 2
 
@@ -40146,7 +40146,7 @@ description = "Small flames are dancing around this strange weapon."
 weight = 1800
 defense = 18
 attack = 35
-weaponType = "club"
+weaponType = "onehand"
 imbuementslots = 2
 
 [[items]]
@@ -40157,7 +40157,7 @@ weight = 18000
 defense = 38
 extradef = -2
 attack = 48
-weaponType = "club"
+weaponType = "onehand"
 imbuementslots = 2
 
 [[items]]
@@ -40167,7 +40167,7 @@ name = "furry club"
 weight = 4200
 defense = 19
 attack = 31
-weaponType = "club"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -40177,7 +40177,7 @@ name = "ravenwing"
 weight = 5500
 defense = 22
 attack = 45
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -40187,7 +40187,7 @@ name = "royal axe"
 weight = 9200
 defense = 25
 attack = 47
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 3
 description = "This axe is only granted to a warlord of the Svargrond arena."
 imbuementslots = 2
@@ -40199,7 +40199,7 @@ name = "impaler"
 weight = 8200
 defense = 25
 attack = 49
-weaponType = "axe"
+weaponType = "onehand"
 extradef = -2
 imbuementslots = 2
 
@@ -40210,7 +40210,7 @@ name = "angelic axe"
 weight = 5600
 defense = 24
 attack = 44
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -40221,7 +40221,7 @@ description = "A beautiful gem is embedded in this weapon."
 weight = 2100
 defense = 18
 attack = 37
-weaponType = "club"
+weaponType = "onehand"
 imbuementslots = 2
 
 [[items]]
@@ -40311,7 +40311,7 @@ name = "crystal sword"
 weight = 6900
 defense = 26
 attack = 35
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -40321,7 +40321,7 @@ name = "hammer of prophecy"
 weight = 11000
 defense = 35
 attack = 52
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -40331,7 +40331,7 @@ name = "shadow sceptre"
 weight = 4100
 defense = 17
 attack = 39
-weaponType = "club"
+weaponType = "onehand"
 imbuementslots = 2
 
 [[items]]
@@ -40341,7 +40341,7 @@ name = "spiked squelcher"
 weight = 6800
 defense = 21
 attack = 41
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -40352,7 +40352,7 @@ name = "executioner"
 weight = 9900
 defense = 20
 attack = 51
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 2
 
@@ -40363,7 +40363,7 @@ name = "glorious axe"
 weight = 9500
 defense = 23
 attack = 40
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -40373,7 +40373,7 @@ name = "mythril axe"
 weight = 5500
 defense = 28
 attack = 48
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 2
 imbuementslots = 2
 
@@ -40384,7 +40384,7 @@ name = "noble axe"
 weight = 3800
 defense = 22
 attack = 39
-weaponType = "axe"
+weaponType = "onehand"
 imbuementslots = 2
 
 [[items]]
@@ -42207,7 +42207,7 @@ name = "fiery spike sword"
 weight = 5000
 defense = 21
 attack = 20
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 2
 elementFire = 4
 charges = 1000
@@ -42221,7 +42221,7 @@ name = "fiery relic sword"
 weight = 4800
 defense = 24
 attack = 34
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 elementFire = 8
 charges = 1000
@@ -42235,7 +42235,7 @@ name = "fiery mystic blade"
 weight = 3500
 defense = 25
 attack = 36
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 2
 elementFire = 8
 charges = 1000
@@ -42249,7 +42249,7 @@ name = "fiery blacksteel sword"
 weight = 5900
 defense = 22
 attack = 35
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 elementFire = 7
 charges = 1000
@@ -42263,7 +42263,7 @@ name = "fiery dragon slayer"
 weight = 8200
 defense = 28
 attack = 35
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 elementFire = 9
 charges = 1000
@@ -42277,7 +42277,7 @@ name = "fiery barbarian axe"
 weight = 5100
 defense = 18
 attack = 23
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 elementFire = 5
 charges = 1000
@@ -42291,7 +42291,7 @@ name = "fiery knight axe"
 weight = 5900
 defense = 21
 attack = 27
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 elementFire = 6
 charges = 1000
@@ -42305,7 +42305,7 @@ name = "fiery heroic axe"
 weight = 6100
 defense = 24
 attack = 35
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 elementFire = 9
 charges = 1000
@@ -42319,7 +42319,7 @@ name = "fiery headchopper"
 weight = 4500
 defense = 20
 attack = 34
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 elementFire = 8
 charges = 1000
@@ -42333,7 +42333,7 @@ name = "fiery war axe"
 weight = 6150
 defense = 10
 attack = 39
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 elementFire = 9
 charges = 1000
@@ -42347,7 +42347,7 @@ name = "fiery clerical mace"
 weight = 5800
 defense = 15
 attack = 23
-weaponType = "club"
+weaponType = "onehand"
 extradef = 1
 elementFire = 5
 charges = 1000
@@ -42361,7 +42361,7 @@ name = "fiery crystal mace"
 weight = 8000
 defense = 16
 attack = 31
-weaponType = "club"
+weaponType = "onehand"
 extradef = 1
 elementFire = 7
 charges = 1000
@@ -42375,7 +42375,7 @@ name = "fiery cranial basher"
 weight = 7800
 defense = 20
 attack = 36
-weaponType = "club"
+weaponType = "onehand"
 extradef = -2
 elementFire = 8
 charges = 1000
@@ -42389,7 +42389,7 @@ name = "fiery orcish maul"
 weight = 5400
 defense = 18
 attack = 35
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 elementFire = 7
 charges = 1000
@@ -42403,7 +42403,7 @@ name = "fiery war hammer"
 weight = 8500
 defense = 10
 attack = 36
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 elementFire = 9
 charges = 1000
@@ -42441,7 +42441,7 @@ name = "icy spike sword"
 weight = 5000
 defense = 21
 attack = 20
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 2
 elementIce = 4
 charges = 1000
@@ -42455,7 +42455,7 @@ name = "icy relic sword"
 weight = 4800
 defense = 24
 attack = 34
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 elementIce = 8
 charges = 1000
@@ -42469,7 +42469,7 @@ name = "icy mystic blade"
 weight = 3500
 defense = 25
 attack = 36
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 2
 elementIce = 8
 charges = 1000
@@ -42483,7 +42483,7 @@ name = "icy blacksteel sword"
 weight = 5900
 defense = 22
 attack = 35
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 elementIce = 7
 charges = 1000
@@ -42497,7 +42497,7 @@ name = "icy dragon slayer"
 weight = 8200
 defense = 28
 attack = 35
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 elementIce = 9
 charges = 1000
@@ -42511,7 +42511,7 @@ name = "icy barbarian axe"
 weight = 5100
 defense = 18
 attack = 23
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 elementIce = 5
 charges = 1000
@@ -42525,7 +42525,7 @@ name = "icy knight axe"
 weight = 5900
 defense = 21
 attack = 27
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 elementIce = 6
 charges = 1000
@@ -42539,7 +42539,7 @@ name = "icy heroic axe"
 weight = 6100
 defense = 24
 attack = 35
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 elementIce = 9
 charges = 1000
@@ -42553,7 +42553,7 @@ name = "icy headchopper"
 weight = 4500
 defense = 20
 attack = 34
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 elementIce = 8
 charges = 1000
@@ -42567,7 +42567,7 @@ name = "icy war axe"
 weight = 6150
 defense = 10
 attack = 39
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 elementIce = 9
 charges = 1000
@@ -42581,7 +42581,7 @@ name = "icy clerical mace"
 weight = 5800
 defense = 15
 attack = 23
-weaponType = "club"
+weaponType = "onehand"
 extradef = 1
 elementIce = 5
 charges = 1000
@@ -42595,7 +42595,7 @@ name = "icy crystal mace"
 weight = 8000
 defense = 16
 attack = 31
-weaponType = "club"
+weaponType = "onehand"
 extradef = 1
 elementIce = 7
 charges = 1000
@@ -42609,7 +42609,7 @@ name = "icy cranial basher"
 weight = 7800
 defense = 20
 attack = 36
-weaponType = "club"
+weaponType = "onehand"
 extradef = -2
 elementIce = 8
 charges = 1000
@@ -42623,7 +42623,7 @@ name = "icy orcish maul"
 weight = 5400
 defense = 18
 attack = 35
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 elementIce = 7
 charges = 1000
@@ -42637,7 +42637,7 @@ name = "icy war hammer"
 weight = 8500
 defense = 10
 attack = 36
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 elementIce = 9
 charges = 1000
@@ -43235,7 +43235,7 @@ name = "earth spike sword"
 weight = 5000
 defense = 21
 attack = 20
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 2
 elementEarth = 4
 charges = 1000
@@ -43249,7 +43249,7 @@ name = "earth relic sword"
 weight = 4800
 defense = 24
 attack = 34
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 elementEarth = 8
 charges = 1000
@@ -43263,7 +43263,7 @@ name = "earth mystic blade"
 weight = 3500
 defense = 25
 attack = 36
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 2
 elementEarth = 8
 charges = 1000
@@ -43277,7 +43277,7 @@ name = "earth blacksteel sword"
 weight = 5900
 defense = 22
 attack = 35
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 elementEarth = 7
 charges = 1000
@@ -43291,7 +43291,7 @@ name = "earth dragon slayer"
 weight = 8200
 defense = 28
 attack = 35
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 elementEarth = 9
 charges = 1000
@@ -43305,7 +43305,7 @@ name = "earth barbarian axe"
 weight = 5100
 defense = 18
 attack = 23
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 elementEarth = 5
 charges = 1000
@@ -43319,7 +43319,7 @@ name = "earth knight axe"
 weight = 5900
 defense = 21
 attack = 27
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 elementEarth = 6
 charges = 1000
@@ -43333,7 +43333,7 @@ name = "earth heroic axe"
 weight = 6100
 defense = 24
 attack = 35
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 elementEarth = 9
 charges = 1000
@@ -43347,7 +43347,7 @@ name = "earth headchopper"
 weight = 4500
 defense = 20
 attack = 34
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 elementEarth = 8
 charges = 1000
@@ -43361,7 +43361,7 @@ name = "earth war axe"
 weight = 6150
 defense = 10
 attack = 39
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 elementEarth = 9
 charges = 1000
@@ -43375,7 +43375,7 @@ name = "earth clerical mace"
 weight = 5800
 defense = 15
 attack = 23
-weaponType = "club"
+weaponType = "onehand"
 extradef = 1
 elementEarth = 5
 charges = 1000
@@ -43389,7 +43389,7 @@ name = "earth crystal mace"
 weight = 8000
 defense = 16
 attack = 31
-weaponType = "club"
+weaponType = "onehand"
 extradef = 1
 elementEarth = 7
 charges = 1000
@@ -43403,7 +43403,7 @@ name = "earth cranial basher"
 weight = 7800
 defense = 20
 attack = 36
-weaponType = "club"
+weaponType = "onehand"
 extradef = -2
 elementEarth = 8
 charges = 1000
@@ -43417,7 +43417,7 @@ name = "earth orcish maul"
 weight = 5400
 defense = 18
 attack = 35
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 elementEarth = 7
 charges = 1000
@@ -43431,7 +43431,7 @@ name = "earth war hammer"
 weight = 8500
 defense = 10
 attack = 36
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 elementEarth = 9
 charges = 1000
@@ -43445,7 +43445,7 @@ name = "energy spike sword"
 weight = 5000
 defense = 21
 attack = 20
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 2
 elementEnergy = 4
 charges = 1000
@@ -43459,7 +43459,7 @@ name = "energy relic sword"
 weight = 4800
 defense = 24
 attack = 34
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 elementEnergy = 8
 charges = 1000
@@ -43473,7 +43473,7 @@ name = "energy mystic blade"
 weight = 3500
 defense = 25
 attack = 36
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 2
 elementEnergy = 8
 charges = 1000
@@ -43487,7 +43487,7 @@ name = "energy blacksteel sword"
 weight = 5900
 defense = 22
 attack = 35
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 elementEnergy = 7
 charges = 1000
@@ -43501,7 +43501,7 @@ name = "energy dragon slayer"
 weight = 8200
 defense = 28
 attack = 35
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 elementEnergy = 9
 charges = 1000
@@ -43515,7 +43515,7 @@ name = "energy barbarian axe"
 weight = 5100
 defense = 18
 attack = 23
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 elementEnergy = 5
 charges = 1000
@@ -43529,7 +43529,7 @@ name = "energy knight axe"
 weight = 5900
 defense = 21
 attack = 27
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 elementEnergy = 6
 charges = 1000
@@ -43543,7 +43543,7 @@ name = "energy heroic axe"
 weight = 6100
 defense = 24
 attack = 35
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 elementEnergy = 9
 charges = 1000
@@ -43557,7 +43557,7 @@ name = "energy headchopper"
 weight = 4500
 defense = 20
 attack = 34
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 elementEnergy = 8
 charges = 1000
@@ -43571,7 +43571,7 @@ name = "energy war axe"
 weight = 6150
 defense = 10
 attack = 39
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 elementEnergy = 9
 charges = 1000
@@ -43585,7 +43585,7 @@ name = "energy clerical mace"
 weight = 5800
 defense = 15
 attack = 23
-weaponType = "club"
+weaponType = "onehand"
 extradef = 1
 elementEnergy = 5
 charges = 1000
@@ -43599,7 +43599,7 @@ name = "energy crystal mace"
 weight = 8000
 defense = 16
 attack = 31
-weaponType = "club"
+weaponType = "onehand"
 extradef = 1
 elementEnergy = 7
 charges = 1000
@@ -43613,7 +43613,7 @@ name = "energy cranial basher"
 weight = 7800
 defense = 20
 attack = 36
-weaponType = "club"
+weaponType = "onehand"
 extradef = -2
 elementEnergy = 8
 charges = 1000
@@ -43627,7 +43627,7 @@ name = "energy orcish maul"
 weight = 5400
 defense = 18
 attack = 35
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 elementEnergy = 7
 charges = 1000
@@ -43641,7 +43641,7 @@ name = "energy war hammer"
 weight = 8500
 defense = 10
 attack = 36
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 elementEnergy = 9
 charges = 1000
@@ -45131,7 +45131,7 @@ description = "Its blade is very notchy"
 weight = 3600
 defense = 10
 attack = 18
-weaponType = "sword"
+weaponType = "onehand"
 imbuementslots = 2
 
 [[items]]
@@ -47265,7 +47265,7 @@ name = "steel axe"
 weight = 4100
 defense = 10
 attack = 21
-weaponType = "axe"
+weaponType = "onehand"
 
 [[items]]
 id = 8602
@@ -47274,7 +47274,7 @@ name = "jagged sword"
 weight = 2900
 defense = 14
 attack = 21
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -48925,7 +48925,7 @@ article = "a"
 name = "fireborn giant armor"
 weight = 12000
 armor = 15
-skillSword = 2
+skillTwohand = 2
 slotType = "body"
 augment = "fireborn giant armor"
 
@@ -48936,7 +48936,7 @@ name = "earthborn titan armor"
 weight = 12000
 slotType = "body"
 armor = 15
-skillAxe = 2
+skillTwohand = 2
 augment = "earthborn titan armor"
 
 [[items]]
@@ -48945,7 +48945,7 @@ article = "a"
 name = "windborn colossus armor"
 weight = 12000
 armor = 15
-skillClub = 2
+skillCOnehand = 2
 slotType = "body"
 augment = "windborn colossus armor"
 
@@ -49295,7 +49295,7 @@ name = "hellforged axe"
 weight = 8800
 defense = 28
 attack = 51
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 2
 imbuementslots = 1
 
@@ -49306,7 +49306,7 @@ name = "solar axe"
 weight = 11000
 defense = 29
 attack = 52
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 3
 imbuementslots = 1
 
@@ -49317,7 +49317,7 @@ name = "demonwing axe"
 weight = 12000
 defense = 20
 attack = 53
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 2
 
@@ -49328,7 +49328,7 @@ name = "dark trinity mace"
 weight = 9900
 defense = 32
 attack = 51
-weaponType = "club"
+weaponType = "onehand"
 extradef = -1
 
 [[items]]
@@ -49338,7 +49338,7 @@ name = "obsidian truncheon"
 weight = 6500
 defense = 30
 attack = 50
-weaponType = "club"
+weaponType = "onehand"
 extradef = 2
 imbuementslots = 1
 
@@ -49349,7 +49349,7 @@ name = "the stomper"
 weight = 11500
 defense = 20
 attack = 51
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 2
 
@@ -49360,7 +49360,7 @@ name = "emerald sword"
 weight = 4100
 defense = 33
 attack = 49
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 3
 imbuementslots = 2
 
@@ -49371,7 +49371,7 @@ name = "the epiphany"
 weight = 4500
 defense = 35
 attack = 50
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 3
 imbuementslots = 1
 
@@ -49382,7 +49382,7 @@ name = "the calamity"
 weight = 6800
 defense = 35
 attack = 51
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -57379,7 +57379,7 @@ description = "It would be an awesome weapon if the handle weren't that greasy."
 weight = 1300
 defense = 10
 attack = 16
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 10291
@@ -57399,7 +57399,7 @@ description = "Someone has sharpened this carrot to inflict some nasty damage es
 weight = 160
 defense = 8
 attack = 16
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 10293
@@ -57409,7 +57409,7 @@ description = "This bread is so old that it has become unbreakable and a formida
 weight = 500
 defense = 8
 attack = 18
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 10294
@@ -57490,7 +57490,7 @@ description = "This scythe has harvested countless souls and still hungers for m
 weight = 3000
 defense = 6
 attack = 16
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -57501,7 +57501,7 @@ description = "It's ready to unleash a fury's wrath on its enemies."
 weight = 500
 defense = 8
 attack = 16
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 10303
@@ -57511,7 +57511,7 @@ description = "A weapon forged to fight oppression of the poor underdogs."
 weight = 2500
 defense = 7
 attack = 17
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -57522,7 +57522,7 @@ description = "This feather is mightier than a sword."
 weight = 200
 defense = 8
 attack = 10
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 10305
@@ -57597,7 +57597,7 @@ description = "This magnificent weapon was forged to slay arch mumpiz demons wit
 weight = 4200
 defense = 14
 attack = 17
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 10314
@@ -63220,7 +63220,7 @@ name = "drakinata"
 weight = 5400
 defense = 20
 attack = 47
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -63231,7 +63231,7 @@ name = "sai"
 weight = 5000
 defense = 27
 attack = 45
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -63241,7 +63241,7 @@ name = "Zaoan sword"
 weight = 4900
 defense = 18
 attack = 43
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 2
 imbuementslots = 2
 
@@ -63252,7 +63252,7 @@ name = "drachaku"
 weight = 6000
 defense = 25
 attack = 46
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -63262,7 +63262,7 @@ name = "twin hooks"
 weight = 5000
 defense = 22
 attack = 32
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -63376,7 +63376,7 @@ article = "a"
 name = "Zaoan halberd"
 defense = 15
 attack = 37
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 8700
 imbuementslots = 3
@@ -63868,7 +63868,7 @@ description = "Its blade is very notchy"
 weight = 3600
 defense = 10
 attack = 18
-weaponType = "sword"
+weaponType = "onehand"
 imbuementslots = 2
 
 [[items]]
@@ -63987,7 +63987,7 @@ name = "the Ron the Ripper's sabre"
 weight = 2500
 defense = 10
 attack = 12
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 11427
@@ -70318,7 +70318,7 @@ name = "twiceslicer"
 weight = 18000
 defense = 30
 attack = 47
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -70547,7 +70547,7 @@ article = "a"
 name = "shield of corruption"
 weight = 4900
 defense = 36
-skillSword = 3
+skillTwohand = 3
 weaponType = "shield"
 showattributes = true
 imbuementslots = 1
@@ -70590,7 +70590,7 @@ name = "snake god's sceptre"
 weight = 12000
 defense = 29
 attack = 48
-weaponType = "club"
+weaponType = "onehand"
 extradef = 3
 imbuementslots = 2
 
@@ -70601,7 +70601,7 @@ name = "blade of corruption"
 weight = 6400
 defense = 29
 attack = 48
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 2
 imbuementslots = 2
 
@@ -76326,7 +76326,7 @@ name = "wooden sword"
 weight = 2000
 defense = 7
 attack = 7
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 13830
@@ -76397,7 +76397,7 @@ name = "heavy trident"
 weight = 9000
 defense = 17
 attack = 35
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -76602,7 +76602,7 @@ name = "shimmer sword"
 weight = 5200
 defense = 20
 attack = 42
-weaponType = "sword"
+weaponType = "onehand"
 decayTo = 0
 duration = 604800
 showduration = false
@@ -77494,7 +77494,7 @@ description = "This cyclopean hammer seems to be an awesome smithing tool."
 weight = 6800
 attack = 24
 defense = 14
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 14335
@@ -83244,7 +83244,7 @@ name = "deepling staff"
 weight = 8800
 defense = 23
 attack = 43
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -83275,7 +83275,7 @@ name = "deepling axe"
 weight = 9100
 defense = 29
 attack = 49
-weaponType = "axe"
+weaponType = "onehand"
 
 [[items]]
 id = 15405
@@ -83378,7 +83378,7 @@ name = "ornate mace"
 weight = 14900
 attack = 49
 defense = 24
-weaponType = "club"
+weaponType = "onehand"
 imbuementslots = 2
 
 [[items]]
@@ -83636,7 +83636,7 @@ name = "warrior's axe"
 weight = 8800
 attack = 42
 defense = 21
-weaponType = "axe"
+weaponType = "onehand"
 imbuementslots = 2
 
 [[items]]
@@ -83661,7 +83661,7 @@ name = "guardian axe"
 weight = 11000
 attack = 46
 defense = 11
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -83902,7 +83902,7 @@ name = "hive scythe"
 weight = 7500
 attack = 46
 defense = 24
-weaponType = "axe"
+weaponType = "onehand"
 imbuementslots = 2
 
 [[items]]
@@ -84769,7 +84769,7 @@ name = "deepling squelcher"
 weight = 8900
 attack = 44
 defense = 28
-weaponType = "club"
+weaponType = "onehand"
 imbuementslots = 2
 
 [[items]]
@@ -91831,7 +91831,7 @@ name = "crystalline sword"
 weight = 4800
 defense = 34
 attack = 47
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -91841,10 +91841,10 @@ name = "crystalline axe"
 weight = 7600
 defense = 29
 attack = 51
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 3
 description = "Even in the light of day, the stars seem to reflect in each facet of this crystalline axe."
-skillAxe = 1
+skillTwohand = 1
 imbuementslots = 1
 
 [[items]]
@@ -91854,9 +91854,9 @@ name = "mycological mace"
 weight = 5900
 defense = 31
 attack = 50
-weaponType = "club"
+weaponType = "onehand"
 extradef = 3
-skillClub = 1
+skillOnehand = 1
 imbuementslots = 1
 
 [[items]]
@@ -91951,9 +91951,9 @@ name = "shiny blade"
 weight = 4500
 defense = 35
 attack = 50
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 3
-skillSword = 1
+skillTwohand = 1
 imbuementslots = 1
 
 [[items]]
@@ -95575,7 +95575,7 @@ article = "a"
 name = "mean knight sword"
 defense = 7
 attack = 14
-weaponType = "sword"
+weaponType = "onehand"
 weight = 2000
 
 [[items]]
@@ -99362,7 +99362,7 @@ weight = 3300
 attack = 27
 defense = 19
 extradef = 1
-weaponType = "sword"
+weaponType = "onehand"
 
 [[items]]
 id = 20093
@@ -99372,7 +99372,7 @@ weight = 4600
 attack = 27
 defense = 19
 extradef = 2
-weaponType = "club"
+weaponType = "onehand"
 imbuementslots = 2
 
 [[items]]
@@ -99440,7 +99440,7 @@ name = "swampling club"
 weight = 3100
 attack = 17
 defense = 12
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 20105
@@ -99467,7 +99467,7 @@ name = "pair of iron fists"
 weight = 4500
 attack = 45
 defense = 17
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -99659,7 +99659,7 @@ name = "spiky club"
 weight = 3900
 attack = 31
 defense = 14
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 20140
@@ -111892,7 +111892,7 @@ name = "crude umbral blade"
 weight = 6300
 defense = 26
 attack = 48
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -111902,7 +111902,7 @@ name = "umbral blade"
 weight = 5900
 defense = 29
 attack = 50
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 2
 imbuementslots = 1
 
@@ -111913,9 +111913,9 @@ name = "umbral masterblade"
 weight = 5500
 defense = 31
 attack = 52
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 3
-skillSword = 1
+skillTwohand = 1
 imbuementslots = 1
 
 [[items]]
@@ -111925,7 +111925,7 @@ name = "crude umbral slayer"
 weight = 10000
 defense = 29
 attack = 51
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -111935,7 +111935,7 @@ name = "umbral slayer"
 weight = 9500
 defense = 31
 attack = 52
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 1
 
@@ -111946,8 +111946,8 @@ name = "umbral master slayer"
 weight = 9000
 defense = 35
 attack = 54
-weaponType = "sword"
-skillSword = 3
+weaponType = "onehand"
+skillTwohand = 3
 slotType = "two-handed"
 imbuementslots = 2
 
@@ -111958,7 +111958,7 @@ name = "crude umbral axe"
 weight = 9000
 defense = 24
 attack = 49
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -111968,7 +111968,7 @@ name = "umbral axe"
 weight = 8500
 defense = 27
 attack = 51
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 2
 imbuementslots = 1
 
@@ -111979,9 +111979,9 @@ name = "umbral master axe"
 weight = 8000
 defense = 30
 attack = 53
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 3
-skillAxe = 1
+skillTwohand = 1
 imbuementslots = 1
 
 [[items]]
@@ -111991,17 +111991,17 @@ name = "crude umbral chopper"
 weight = 12000
 defense = 27
 attack = 51
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
 id = 22408
 article = "an"
-name = "umbral chopper"
+name = "umbral choppers"
 weight = 11500
 defense = 30
 attack = 52
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 1
 
@@ -112012,8 +112012,8 @@ name = "umbral master chopper"
 weight = 11000
 defense = 34
 attack = 54
-weaponType = "axe"
-skillAxe = 3
+weaponType = "onehand"
+skillTwohand = 3
 slotType = "two-handed"
 imbuementslots = 2
 
@@ -112024,7 +112024,7 @@ name = "crude umbral mace"
 weight = 9000
 defense = 22
 attack = 48
-weaponType = "club"
+weaponType = "onehand"
 extradef = 1
 
 [[items]]
@@ -112034,7 +112034,7 @@ name = "umbral mace"
 weight = 8500
 defense = 26
 attack = 50
-weaponType = "club"
+weaponType = "onehand"
 extradef = 2
 imbuementslots = 1
 
@@ -112045,9 +112045,9 @@ name = "umbral master mace"
 weight = 8000
 defense = 30
 attack = 52
-weaponType = "club"
+weaponType = "onehand"
 extradef = 3
-skillClub = 1
+skillOnehand = 1
 imbuementslots = 1
 
 [[items]]
@@ -112057,7 +112057,7 @@ name = "crude umbral hammer"
 weight = 17000
 defense = 27
 attack = 51
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -112067,7 +112067,7 @@ name = "umbral hammer"
 weight = 16500
 defense = 30
 attack = 53
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 1
 
@@ -112078,8 +112078,8 @@ name = "umbral master hammer"
 weight = 16000
 defense = 34
 attack = 55
-weaponType = "club"
-skillClub = 3
+weaponType = "onehand"
+skillOnehand = 3
 slotType = "two-handed"
 imbuementslots = 2
 
@@ -113801,7 +113801,7 @@ name = "light rapier"
 weight = 1500
 defense = 8
 attack = 10
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 1
 description = "It has been used a lot, judging by its jagged blade."
 
@@ -118333,7 +118333,7 @@ article = "a"
 name = "metal bat"
 defense = 20
 attack = 44
-weaponType = "club"
+weaponType = "onehand"
 weight = 5100
 
 [[items]]
@@ -118342,7 +118342,7 @@ article = "a"
 name = "glooth whip"
 defense = 19
 attack = 33
-weaponType = "club"
+weaponType = "onehand"
 weight = 3200
 imbuementslots = 2
 
@@ -118352,7 +118352,7 @@ article = "a"
 name = "moohtant cudgel"
 defense = 21
 attack = 47
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 8500
 
@@ -118362,7 +118362,7 @@ article = "a"
 name = "mino lance"
 defense = 23
 attack = 40
-weaponType = "axe"
+weaponType = "onehand"
 weight = 6500
 
 [[items]]
@@ -118379,7 +118379,7 @@ article = "an"
 name = "execowtioner axe"
 defense = 18
 attack = 46
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 8200
 
@@ -118390,7 +118390,7 @@ name = "cowtana"
 defense = 19
 extradef = 1
 attack = 34
-weaponType = "sword"
+weaponType = "onehand"
 weight = 2800
 
 [[items]]
@@ -118399,7 +118399,7 @@ article = "a"
 name = "glooth club"
 defense = 1
 attack = 39
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 elementEarth = 26
 charges = 2
@@ -118411,7 +118411,7 @@ article = "a"
 name = "glooth blade"
 defense = 1
 attack = 39
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 elementEarth = 26
 charges = 2
@@ -118423,7 +118423,7 @@ article = "a"
 name = "glooth axe"
 defense = 1
 attack = 39
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 elementEarth = 26
 charges = 2
@@ -118657,7 +118657,7 @@ article = "a"
 name = "one hit wonder"
 defense = 22
 attack = 49
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 9600
 
@@ -123635,7 +123635,7 @@ name = "ogre klubba"
 weight = 7900
 defense = 25
 attack = 45
-weaponType = "club"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -123645,7 +123645,7 @@ name = "ogre choppa"
 weight = 7500
 defense = 23
 attack = 39
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 
 [[items]]
@@ -125107,7 +125107,7 @@ article = "a"
 name = "fireheart cuirass"
 weight = 14500
 armor = 18
-skillSword = 4
+skillTwohand = 4
 slotType = "body"
 
 [[items]]
@@ -125116,7 +125116,7 @@ article = "a"
 name = "fireheart hauberk"
 weight = 14500
 armor = 18
-skillAxe = 4
+skillTwohand = 4
 slotType = "body"
 
 [[items]]
@@ -125125,7 +125125,7 @@ article = "a"
 name = "fireheart platemail"
 weight = 14500
 armor = 18
-skillClub = 4
+skillOnehand = 4
 slotType = "body"
 
 [[items]]
@@ -125134,7 +125134,7 @@ article = "an"
 name = "earthheart cuirass"
 weight = 14500
 armor = 18
-skillSword = 4
+skillTwohand = 4
 slotType = "body"
 
 [[items]]
@@ -125143,7 +125143,7 @@ article = "an"
 name = "earthheart hauberk"
 weight = 14500
 armor = 18
-skillAxe = 4
+skillTwohand = 4
 slotType = "body"
 
 [[items]]
@@ -125152,7 +125152,7 @@ article = "an"
 name = "earthheart platemail"
 weight = 14500
 armor = 18
-skillClub = 4
+skillOnehand = 4
 slotType = "body"
 
 [[items]]
@@ -125161,7 +125161,7 @@ article = "a"
 name = "thunderheart cuirass"
 weight = 14500
 armor = 18
-skillSword = 4
+skillTwohand = 4
 slotType = "body"
 
 [[items]]
@@ -125170,7 +125170,7 @@ article = "a"
 name = "thunderheart hauberk"
 weight = 14500
 armor = 18
-skillAxe = 4
+skillTwohand = 4
 slotType = "body"
 
 [[items]]
@@ -125179,7 +125179,7 @@ article = "a"
 name = "thunderheart platemail"
 weight = 14500
 armor = 18
-skillClub = 4
+skillOnehand = 4
 slotType = "body"
 
 [[items]]
@@ -125188,7 +125188,7 @@ article = "a"
 name = "frostheart cuirass"
 weight = 14500
 armor = 18
-skillSword = 4
+skillTwohand = 4
 slotType = "body"
 
 [[items]]
@@ -125197,7 +125197,7 @@ article = "a"
 name = "frostheart hauberk"
 weight = 14500
 armor = 18
-skillAxe = 4
+skillTwohand = 4
 slotType = "body"
 
 [[items]]
@@ -125206,7 +125206,7 @@ article = "a"
 name = "frostheart platemail"
 weight = 14500
 armor = 18
-skillClub = 4
+skillOnehand = 4
 slotType = "body"
 
 [[items]]
@@ -126222,7 +126222,7 @@ name = "rift lance"
 weight = 6600
 defense = 28
 attack = 48
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 imbuementslots = 3
 
@@ -126429,7 +126429,7 @@ name = "plague bite"
 weight = 9900
 defense = 31
 attack = 26
-weaponType = "axe"
+weaponType = "onehand"
 extradef = 3
 elementEarth = 26
 
@@ -126440,7 +126440,7 @@ name = "impaler of the igniter"
 weight = 5900
 defense = 31
 attack = 26
-weaponType = "sword"
+weaponType = "onehand"
 extradef = 3
 elementFire = 26
 
@@ -126458,7 +126458,7 @@ name = "maimer"
 weight = 7700
 defense = 32
 attack = 51
-weaponType = "club"
+weaponType = "onehand"
 imbuementslots = 1
 
 [[items]]
@@ -126475,7 +126475,7 @@ weight = 2900
 defense = 30
 attack = 20
 description = "It is made of platinum and emeralds and topped by a large F made of gold."
-weaponType = "club"
+weaponType = "onehand"
 
 [[items]]
 id = 25421
@@ -127593,7 +127593,7 @@ article = "a"
 name = "blade of mayhem"
 defense = 33
 attack = 50
-weaponType = "sword"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -127603,7 +127603,7 @@ article = "a"
 name = "slayer of mayhem"
 defense = 32
 attack = 52
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -127614,7 +127614,7 @@ article = "an"
 name = "axe of mayhem"
 defense = 31
 attack = 51
-weaponType = "axe"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -127624,7 +127624,7 @@ article = "a"
 name = "chopper of mayhem"
 defense = 32
 attack = 52
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -127635,7 +127635,7 @@ article = "a"
 name = "mace of mayhem"
 defense = 30
 attack = 50
-weaponType = "club"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -127645,7 +127645,7 @@ article = "a"
 name = "hammer of mayhem"
 defense = 30
 attack = 53
-weaponType = "club"
+weaponType = "onehand"
 weight = 7000
 slotType = "two-handed"
 imbuementslots = 3
@@ -127882,7 +127882,7 @@ article = "a"
 name = "blade of remedy"
 defense = 33
 attack = 50
-weaponType = "sword"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -127892,7 +127892,7 @@ article = "a"
 name = "blade of remedy"
 defense = 33
 attack = 50
-weaponType = "sword"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -127902,7 +127902,7 @@ article = "a"
 name = "blade of remedy"
 defense = 33
 attack = 50
-weaponType = "sword"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -127912,7 +127912,7 @@ article = "a"
 name = "blade of remedy"
 defense = 33
 attack = 50
-weaponType = "sword"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -127922,7 +127922,7 @@ article = "a"
 name = "slayer of remedy"
 defense = 32
 attack = 52
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -127933,7 +127933,7 @@ article = "a"
 name = "slayer of remedy"
 defense = 32
 attack = 52
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -127944,7 +127944,7 @@ article = "a"
 name = "slayer of remedy"
 defense = 32
 attack = 52
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -127955,7 +127955,7 @@ article = "a"
 name = "slayer of remedy"
 defense = 32
 attack = 52
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -127966,7 +127966,7 @@ article = "an"
 name = "axe of remedy"
 defense = 31
 attack = 51
-weaponType = "axe"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -127976,7 +127976,7 @@ article = "an"
 name = "axe of remedy"
 defense = 31
 attack = 51
-weaponType = "axe"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -127986,7 +127986,7 @@ article = "an"
 name = "axe of remedy"
 defense = 31
 attack = 51
-weaponType = "axe"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -127996,7 +127996,7 @@ article = "an"
 name = "axe of remedy"
 defense = 31
 attack = 51
-weaponType = "axe"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128006,7 +128006,7 @@ article = "a"
 name = "chopper of remedy"
 defense = 32
 attack = 52
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -128017,7 +128017,7 @@ article = "a"
 name = "chopper of remedy"
 defense = 32
 attack = 52
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -128028,7 +128028,7 @@ article = "a"
 name = "chopper of remedy"
 defense = 32
 attack = 52
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -128039,7 +128039,7 @@ article = "a"
 name = "chopper of remedy"
 defense = 32
 attack = 52
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -128050,7 +128050,7 @@ article = "a"
 name = "mace of remedy"
 defense = 30
 attack = 50
-weaponType = "club"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128060,7 +128060,7 @@ article = "a"
 name = "mace of remedy"
 defense = 30
 attack = 50
-weaponType = "club"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128070,7 +128070,7 @@ article = "a"
 name = "mace of remedy"
 defense = 30
 attack = 50
-weaponType = "club"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128080,7 +128080,7 @@ article = "a"
 name = "mace of remedy"
 defense = 30
 attack = 50
-weaponType = "club"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128090,7 +128090,7 @@ article = "a"
 name = "hammer of remedy"
 defense = 30
 attack = 53
-weaponType = "club"
+weaponType = "onehand"
 weight = 7000
 slotType = "two-handed"
 imbuementslots = 3
@@ -128101,7 +128101,7 @@ article = "a"
 name = "hammer of remedy"
 defense = 30
 attack = 53
-weaponType = "club"
+weaponType = "onehand"
 weight = 7000
 slotType = "two-handed"
 imbuementslots = 3
@@ -128112,7 +128112,7 @@ article = "a"
 name = "hammer of remedy"
 defense = 30
 attack = 53
-weaponType = "club"
+weaponType = "onehand"
 weight = 7000
 slotType = "two-handed"
 imbuementslots = 3
@@ -128123,7 +128123,7 @@ article = "a"
 name = "hammer of remedy"
 defense = 30
 attack = 53
-weaponType = "club"
+weaponType = "onehand"
 weight = 7000
 slotType = "two-handed"
 imbuementslots = 3
@@ -128318,7 +128318,7 @@ article = "a"
 name = "blade of carving"
 defense = 33
 attack = 50
-weaponType = "sword"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128328,7 +128328,7 @@ article = "a"
 name = "blade of carving"
 defense = 33
 attack = 50
-weaponType = "sword"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128338,7 +128338,7 @@ article = "a"
 name = "blade of carving"
 defense = 33
 attack = 50
-weaponType = "sword"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128348,7 +128348,7 @@ article = "a"
 name = "blade of carving"
 defense = 33
 attack = 50
-weaponType = "sword"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128358,7 +128358,7 @@ article = "a"
 name = "slayer of carving"
 defense = 32
 attack = 52
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -128369,7 +128369,7 @@ article = "a"
 name = "slayer of carving"
 defense = 32
 attack = 52
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -128380,7 +128380,7 @@ article = "a"
 name = "slayer of carving"
 defense = 32
 attack = 52
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -128391,7 +128391,7 @@ article = "a"
 name = "slayer of carving"
 defense = 32
 attack = 52
-weaponType = "sword"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -128402,7 +128402,7 @@ article = "an"
 name = "axe of carving"
 defense = 31
 attack = 51
-weaponType = "axe"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128412,7 +128412,7 @@ article = "an"
 name = "axe of carving"
 defense = 31
 attack = 51
-weaponType = "axe"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128422,7 +128422,7 @@ article = "an"
 name = "axe of carving"
 defense = 31
 attack = 51
-weaponType = "axe"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128432,7 +128432,7 @@ article = "an"
 name = "axe of carving"
 defense = 31
 attack = 51
-weaponType = "axe"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128442,7 +128442,7 @@ article = "a"
 name = "chopper of carving"
 defense = 32
 attack = 52
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -128453,7 +128453,7 @@ article = "a"
 name = "chopper of carving"
 defense = 32
 attack = 52
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -128464,7 +128464,7 @@ article = "a"
 name = "chopper of carving"
 defense = 32
 attack = 52
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -128475,7 +128475,7 @@ article = "a"
 name = "chopper of carving"
 defense = 32
 attack = 52
-weaponType = "axe"
+weaponType = "twohand"
 slotType = "two-handed"
 weight = 7000
 imbuementslots = 3
@@ -128486,7 +128486,7 @@ article = "a"
 name = "mace of carving"
 defense = 30
 attack = 50
-weaponType = "club"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128496,7 +128496,7 @@ article = "a"
 name = "mace of carving"
 defense = 30
 attack = 50
-weaponType = "club"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128506,7 +128506,7 @@ article = "a"
 name = "mace of carving"
 defense = 30
 attack = 50
-weaponType = "club"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128516,7 +128516,7 @@ article = "a"
 name = "mace of carving"
 defense = 30
 attack = 50
-weaponType = "club"
+weaponType = "onehand"
 weight = 5000
 imbuementslots = 3
 
@@ -128526,7 +128526,7 @@ article = "a"
 name = "hammer of carving"
 defense = 30
 attack = 53
-weaponType = "club"
+weaponType = "onehand"
 weight = 7000
 slotType = "two-handed"
 imbuementslots = 3
@@ -128537,7 +128537,7 @@ article = "a"
 name = "hammer of carving"
 defense = 30
 attack = 53
-weaponType = "club"
+weaponType = "onehand"
 weight = 7000
 slotType = "two-handed"
 imbuementslots = 3
@@ -128548,7 +128548,7 @@ article = "a"
 name = "hammer of carving"
 defense = 30
 attack = 53
-weaponType = "club"
+weaponType = "onehand"
 weight = 7000
 slotType = "two-handed"
 imbuementslots = 3
@@ -128559,7 +128559,7 @@ article = "a"
 name = "hammer of carving"
 defense = 30
 attack = 53
-weaponType = "club"
+weaponType = "onehand"
 weight = 7000
 slotType = "two-handed"
 imbuementslots = 3
@@ -129870,9 +129870,8 @@ weight = 500
 slotType = "necklace"
 decayTo = 0
 duration = 1800
-skillSword = 4
-skillClub = 4
-skillAxe = 4
+skillTwohand = 4
+skillOnehand = 4
 showduration = true
 resumable = true
 transformDeEquipTo = 26200
@@ -129949,9 +129948,8 @@ weight = 90
 slotType = "ring"
 decayTo = 0
 duration = 1800
-skillSword = 3
-skillClub = 3
-skillAxe = 3
+skillTwohand = 3
+skillOnehand = 3
 showduration = true
 resumable = true
 transformDeEquipTo = 26189

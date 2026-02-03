@@ -53,10 +53,9 @@ enum StatModifier : uint8_t {
 
 enum SkillModifier : uint8_t {
 	MELEE_SKILL,
-	FIST_SKILL,
-	SWORD_SKILL,
-	AXE_SKILL,
-	CLUB_SKILL,
+	UNARMED_SKILL,
+	TWOHAND_SKILL,
+	ONEHAND_SKILL,
 	WAND_SKILL,
 	ROD_SKILL,
 	MAGIC_SKILL,

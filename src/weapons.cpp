@@ -234,9 +234,8 @@ void Weapons::loadDefaults()
 		}
 
 		switch (it.weaponType) {
-			case WEAPON_AXE:
-			case WEAPON_SWORD:
-			case WEAPON_CLUB: {
+			case WEAPON_TWOHAND:
+			case WEAPON_ONEHAND: {
 				WeaponMelee* weapon = new WeaponMelee(&scriptInterface);
 				weapon->configureWeapon(it);
 				weapons[i] = weapon;
@@ -403,7 +402,7 @@ bool Weapon::useFist(const PlayerPtr& player, const CreaturePtr& target)
 	}
 
 	float attackFactor = player->getAttackFactor();
-	int32_t attackSkill = player->getSkillLevel(SKILL_FIST);
+	int32_t attackSkill = player->getSkillLevel(SKILL_UNARMED);
 	int32_t attackValue = 7;
 
 	int32_t maxDamage = Weapons::getMaxWeaponDamage(player->getLevel(), attackSkill, attackValue, attackFactor);
@@ -420,7 +419,7 @@ bool Weapon::useFist(const PlayerPtr& player, const CreaturePtr& target)
 
 	Combat::doTargetCombat(player, target, damage, params);
 	if (!player->hasFlag(PlayerFlag_NotGainSkill) && player->getAddAttackSkill()) {
-		player->addSkillAdvance(SKILL_FIST, 1);
+		player->addSkillAdvance(SKILL_UNARMED, 1);
 	}
 
 	return true;
@@ -619,18 +618,13 @@ bool WeaponMelee::getSkillType(const PlayerConstPtr& player, const ItemConstPtr&
 	}
 
 	switch (const auto weaponType = item->getWeaponType()) {
-		case WEAPON_SWORD: {
-			skill = SKILL_SWORD;
+		case WEAPON_TWOHAND: {
+			skill = SKILL_TWOHAND;
 			return true;
 		}
 
-		case WEAPON_CLUB: {
-			skill = SKILL_CLUB;
-			return true;
-		}
-
-		case WEAPON_AXE: {
-			skill = SKILL_AXE;
+		case WEAPON_ONEHAND: {
+			skill = SKILL_ONEHAND;
 			return true;
 		}
 

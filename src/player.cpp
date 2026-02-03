@@ -916,25 +916,20 @@ WeaponType_t Player::getWeaponType() const
 int32_t Player::getWeaponSkill(const ItemConstPtr& item) const
 {
 	if (!item) {
-		return getSkillLevel(SKILL_FIST);
+		return getSkillLevel(SKILL_UNARMED);
 	}
 
 	int32_t attackSkill;
 
 	const WeaponType_t weaponType = item->getWeaponType();
 	switch (weaponType) {
-		case WEAPON_SWORD: {
-			attackSkill = getSkillLevel(SKILL_SWORD);
+		case WEAPON_TWOHAND: {
+			attackSkill = getSkillLevel(SKILL_TWOHAND);
 			break;
 		}
 
-		case WEAPON_CLUB: {
-			attackSkill = getSkillLevel(SKILL_CLUB);
-			break;
-		}
-
-		case WEAPON_AXE: {
-			attackSkill = getSkillLevel(SKILL_AXE);
+		case WEAPON_ONEHAND: {
+			attackSkill = getSkillLevel(SKILL_ONEHAND);
 			break;
 		}
 
@@ -966,7 +961,7 @@ int32_t Player::getArmor() const
 
 int32_t Player::getDefense() const
 {
-	int32_t defenseSkill = getSkillLevel(SKILL_FIST);
+	int32_t defenseSkill = getSkillLevel(SKILL_UNARMED);
 	int32_t defenseValue = 7;
 
 	ItemPtr leftHand = getInventoryItem(CONST_SLOT_LEFT);
@@ -5497,16 +5492,13 @@ void Player::addItemImbuements(const ItemPtr& item) {
 			if (imbue->isSkill()) {
 				switch (imbue->imbuetype) {
 					case ImbuementType::IMBUEMENT_TYPE_FIST_SKILL:
-						setVarSkill(SKILL_FIST, static_cast<int32_t>(imbue->value));
+						setVarSkill(SKILL_UNARMED, static_cast<int32_t>(imbue->value));
 						break;
 					case ImbuementType::IMBUEMENT_TYPE_CLUB_SKILL:
-						setVarSkill(SKILL_CLUB, static_cast<int32_t>(imbue->value));
+						setVarSkill(SKILL_ONEHAND, static_cast<int32_t>(imbue->value));
 						break;
 					case ImbuementType::IMBUEMENT_TYPE_SWORD_SKILL:
-						setVarSkill(SKILL_SWORD, static_cast<int32_t>(imbue->value));
-						break;
-					case ImbuementType::IMBUEMENT_TYPE_AXE_SKILL:
-						setVarSkill(SKILL_AXE, static_cast<int32_t>(imbue->value));
+						setVarSkill(SKILL_TWOHAND, static_cast<int32_t>(imbue->value));
 						break;
 					case ImbuementType::IMBUEMENT_TYPE_DISTANCE_SKILL:
 						setVarSkill(SKILL_DISTANCE, static_cast<int32_t>(imbue->value));
@@ -5564,16 +5556,13 @@ void Player::removeItemImbuements(const ItemPtr& item) {
 			if (imbue->isSkill()) {
 				switch (imbue->imbuetype) {
 					case ImbuementType::IMBUEMENT_TYPE_FIST_SKILL:
-						setVarSkill(SKILL_FIST, -static_cast<int32_t>(imbue->value));
+						setVarSkill(SKILL_UNARMED, -static_cast<int32_t>(imbue->value));
 						break;
 					case ImbuementType::IMBUEMENT_TYPE_CLUB_SKILL:
-						setVarSkill(SKILL_CLUB, -static_cast<int32_t>(imbue->value));
+						setVarSkill(SKILL_ONEHAND, -static_cast<int32_t>(imbue->value));
 						break;
 					case ImbuementType::IMBUEMENT_TYPE_SWORD_SKILL:
-						setVarSkill(SKILL_SWORD, -static_cast<int32_t>(imbue->value));
-						break;
-					case ImbuementType::IMBUEMENT_TYPE_AXE_SKILL:
-						setVarSkill(SKILL_AXE, -static_cast<int32_t>(imbue->value));
+						setVarSkill(SKILL_TWOHAND, -static_cast<int32_t>(imbue->value));
 						break;
 					case ImbuementType::IMBUEMENT_TYPE_DISTANCE_SKILL:
 						setVarSkill(SKILL_DISTANCE, -static_cast<int32_t>(imbue->value));
@@ -5630,16 +5619,13 @@ void Player::removeImbuementEffect(const std::shared_ptr<Imbuement>& imbue) {
 	if (imbue->isSkill()) {
 		switch (imbue->imbuetype) {
 		case ImbuementType::IMBUEMENT_TYPE_FIST_SKILL:
-			setVarSkill(SKILL_FIST, -static_cast<int32_t>(imbue->value));
+			setVarSkill(SKILL_UNARMED, -static_cast<int32_t>(imbue->value));
 			break;
 		case ImbuementType::IMBUEMENT_TYPE_CLUB_SKILL:
-			setVarSkill(SKILL_CLUB, -static_cast<int32_t>(imbue->value));
+			setVarSkill(SKILL_ONEHAND, -static_cast<int32_t>(imbue->value));
 			break;
 		case ImbuementType::IMBUEMENT_TYPE_SWORD_SKILL:
-			setVarSkill(SKILL_SWORD, -static_cast<int32_t>(imbue->value));
-			break;
-		case ImbuementType::IMBUEMENT_TYPE_AXE_SKILL:
-			setVarSkill(SKILL_AXE, -static_cast<int32_t>(imbue->value));
+			setVarSkill(SKILL_TWOHAND, -static_cast<int32_t>(imbue->value));
 			break;
 		case ImbuementType::IMBUEMENT_TYPE_DISTANCE_SKILL:
 			setVarSkill(SKILL_DISTANCE, -static_cast<int32_t>(imbue->value));
@@ -5692,16 +5678,13 @@ void Player::addImbuementEffect(const std::shared_ptr<Imbuement>& imbue) {
 	if (imbue->isSkill()) {
 		switch (imbue->imbuetype) {
 		case ImbuementType::IMBUEMENT_TYPE_FIST_SKILL:
-			setVarSkill(SKILL_FIST, static_cast<int32_t>(imbue->value));
+			setVarSkill(SKILL_UNARMED, static_cast<int32_t>(imbue->value));
 			break;
 		case ImbuementType::IMBUEMENT_TYPE_CLUB_SKILL:
-			setVarSkill(SKILL_CLUB, static_cast<int32_t>(imbue->value));
+			setVarSkill(SKILL_ONEHAND, static_cast<int32_t>(imbue->value));
 			break;
 		case ImbuementType::IMBUEMENT_TYPE_SWORD_SKILL:
-			setVarSkill(SKILL_SWORD, static_cast<int32_t>(imbue->value));
-			break;
-		case ImbuementType::IMBUEMENT_TYPE_AXE_SKILL:
-			setVarSkill(SKILL_AXE, static_cast<int32_t>(imbue->value));
+			setVarSkill(SKILL_TWOHAND, static_cast<int32_t>(imbue->value));
 			break;
 		case ImbuementType::IMBUEMENT_TYPE_DISTANCE_SKILL:
 			setVarSkill(SKILL_DISTANCE, static_cast<int32_t>(imbue->value));

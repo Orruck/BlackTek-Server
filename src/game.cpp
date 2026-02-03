@@ -67,9 +67,8 @@ Game::Game()
 {
 	offlineTrainingWindow.defaultEnterButton = 0;
 	offlineTrainingWindow.defaultEscapeButton = 1;
-	offlineTrainingWindow.choices.emplace_back("Sword Fighting and Shielding", SKILL_SWORD);
-	offlineTrainingWindow.choices.emplace_back("Axe Fighting and Shielding", SKILL_AXE);
-	offlineTrainingWindow.choices.emplace_back("Club Fighting and Shielding", SKILL_CLUB);
+	offlineTrainingWindow.choices.emplace_back("Sword Fighting and Shielding", SKILL_TWOHAND);
+	offlineTrainingWindow.choices.emplace_back("Club Fighting and Shielding", SKILL_ONEHAND);
 	offlineTrainingWindow.choices.emplace_back("Distance Fighting and Shielding", SKILL_DISTANCE);
 	offlineTrainingWindow.choices.emplace_back("Magic Level and Shielding", SKILL_MAGLEVEL);
 	offlineTrainingWindow.buttons.emplace_back("Okay", offlineTrainingWindow.defaultEnterButton);
@@ -4265,10 +4264,9 @@ void Game::onPrivateAccountManagerRecieveText(const uint32_t player_id, uint32_t
 				config.magiclevel,
 				mana, manamax,
 				cap, sex, level,
-				config.skills[SKILL_FIST], vocation->getReqSkillTries(SKILL_FIST, config.skills[SKILL_FIST]),
-				config.skills[SKILL_CLUB], vocation->getReqSkillTries(SKILL_CLUB, config.skills[SKILL_CLUB]),
-				config.skills[SKILL_SWORD], vocation->getReqSkillTries(SKILL_SWORD, config.skills[SKILL_SWORD]),
-				config.skills[SKILL_AXE], vocation->getReqSkillTries(SKILL_AXE, config.skills[SKILL_AXE]),
+				config.skills[SKILL_UNARMED], vocation->getReqSkillTries(SKILL_UNARMED, config.skills[SKILL_UNARMED]),
+				config.skills[SKILL_ONEHAND], vocation->getReqSkillTries(SKILL_ONEHAND, config.skills[SKILL_ONEHAND]),
+				config.skills[SKILL_TWOHAND], vocation->getReqSkillTries(SKILL_TWOHAND, config.skills[SKILL_TWOHAND]),
 				config.skills[SKILL_DISTANCE], vocation->getReqSkillTries(SKILL_DISTANCE, config.skills[SKILL_DISTANCE]),
 				config.skills[SKILL_SHIELD], vocation->getReqSkillTries(SKILL_SHIELD, config.skills[SKILL_SHIELD]),
 				config.skills[SKILL_FISHING], vocation->getReqSkillTries(SKILL_FISHING, config.skills[SKILL_FISHING]),
@@ -6954,7 +6952,7 @@ void Game::playerAnswerModalWindow(const uint32_t playerId, const uint32_t modal
 	// offline training, hard-coded
 	if (modalWindowId == std::numeric_limits<uint32_t>::max()) {
 		if (button == offlineTrainingWindow.defaultEnterButton) {
-			if (choice == SKILL_SWORD || choice == SKILL_AXE || choice == SKILL_CLUB || choice == SKILL_DISTANCE || choice == SKILL_MAGLEVEL) {
+			if (choice == SKILL_TWOHAND || choice == SKILL_ONEHAND || choice == SKILL_DISTANCE || choice == SKILL_MAGLEVEL) {
 				const auto bedItem = player->getBedItem();
 				if (bedItem && bedItem->sleep(player)) {
 					player->setOfflineTrainingSkill(choice);

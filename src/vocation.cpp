@@ -84,7 +84,7 @@ uint16_t Vocations::getPromotedVocation(uint16_t id) const
 	return it != vocationsMap.end() ? it->first : VOCATION_NONE;
 }
 
-static const uint32_t skillBase[SKILL_LAST + 1] = {50, 50, 50, 50, 30, 100, 20};
+static const uint32_t skillBase[SKILL_LAST + 1] = {50, 50, 50, 30, 100, 20};
 
 uint64_t Vocation::getReqSkillTries(uint8_t skill, uint16_t level) const
 {
@@ -189,10 +189,9 @@ bool Vocations::loadFromToml() {
 								{
 									auto& s = *prop.as_table();
 									vocation.manaMultiplier = s["magic"].value_or(4.0f);
-									vocation.skillMultipliers[SKILL_FIST] = s["fist"].value_or(1.5f);
-									vocation.skillMultipliers[SKILL_CLUB] = s["club"].value_or(2.0f);
-									vocation.skillMultipliers[SKILL_SWORD] = s["sword"].value_or(2.0f);
-									vocation.skillMultipliers[SKILL_AXE] = s["axe"].value_or(2.0f);
+									vocation.skillMultipliers[SKILL_UNARMED] = s["unarmed"].value_or(1.5f);
+									vocation.skillMultipliers[SKILL_ONEHAND] = s["onehand"].value_or(2.0f);
+									vocation.skillMultipliers[SKILL_TWOHAND] = s["twohand"].value_or(2.0f);
 									vocation.skillMultipliers[SKILL_DISTANCE] = s["distance"].value_or(2.0f);
 									vocation.skillMultipliers[SKILL_SHIELD] = s["shield"].value_or(1.5f);
 									vocation.skillMultipliers[SKILL_FISHING] = s["fishing"].value_or(1.1f);

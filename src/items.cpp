@@ -76,13 +76,13 @@ const gtl::flat_hash_map<std::string, ItemParseAttributes_t> ItemParseAttributes
 	{"managain", ITEM_PARSE_MANAGAIN},
 	{"manaticks", ITEM_PARSE_MANATICKS},
 	{"manashield", ITEM_PARSE_MANASHIELD},
-	{"skillsword", ITEM_PARSE_SKILLSWORD},
-	{"skillaxe", ITEM_PARSE_SKILLAXE},
-	{"skillclub", ITEM_PARSE_SKILLCLUB},
+	{"skilltwohand", ITEM_PARSE_SKILLTWOHAND},
+	// {"skillaxe", ITEM_PARSE_SKILLAXE},
+	{"skillonehand", ITEM_PARSE_SKILLONEHAND},
 	{"skilldist", ITEM_PARSE_SKILLDIST},
 	{"skillfish", ITEM_PARSE_SKILLFISH},
 	{"skillshield", ITEM_PARSE_SKILLSHIELD},
-	{"skillfist", ITEM_PARSE_SKILLFIST},
+	{"skillunarmed", ITEM_PARSE_SKILLUNARMED},
 	{"maxhitpoints", ITEM_PARSE_MAXHITPOINTS},
 	{"maxhitpointspercent", ITEM_PARSE_MAXHITPOINTSPERCENT},
 	{"maxmanapoints", ITEM_PARSE_MAXMANAPOINTS},
@@ -164,9 +164,8 @@ const gtl::flat_hash_map<std::string, RaceType_t> RaceTypesMap = {
 };
 
 const gtl::flat_hash_map<std::string, WeaponType_t> WeaponTypesMap = {
-	{"sword", WEAPON_SWORD},
-	{"club", WEAPON_CLUB},
-	{"axe", WEAPON_AXE},
+	{"twohand", WEAPON_TWOHAND},
+	{"onehand", WEAPON_ONEHAND},
 	{"shield", WEAPON_SHIELD},
 	{"distance", WEAPON_DISTANCE},
 	{"wand", WEAPON_WAND},
@@ -757,16 +756,16 @@ void Items::parseItemToml(const toml::table& itemTable, uint16_t id)
             if (value.is_boolean()) abilities.manaShield = value.as_boolean()->get();
             break;
 
-        case ITEM_PARSE_SKILLSWORD:
-            if (value.is_integer()) abilities.skills[SKILL_SWORD] = static_cast<int32_t>(value.as_integer()->get());
+        case ITEM_PARSE_SKILLTWOHAND:
+            if (value.is_integer()) abilities.skills[SKILL_TWOHAND] = static_cast<int32_t>(value.as_integer()->get());
             break;
 
-        case ITEM_PARSE_SKILLAXE:
-            if (value.is_integer()) abilities.skills[SKILL_AXE] = static_cast<int32_t>(value.as_integer()->get());
-            break;
+        //case ITEM_PARSE_SKILLAXE:
+        //    if (value.is_integer()) abilities.skills[SKILL_AXE] = static_cast<int32_t>(value.as_integer()->get());
+        //    break;
 
-        case ITEM_PARSE_SKILLCLUB:
-            if (value.is_integer()) abilities.skills[SKILL_CLUB] = static_cast<int32_t>(value.as_integer()->get());
+        case ITEM_PARSE_SKILLONEHAND:
+            if (value.is_integer()) abilities.skills[SKILL_ONEHAND] = static_cast<int32_t>(value.as_integer()->get());
             break;
 
         case ITEM_PARSE_SKILLDIST:
@@ -781,8 +780,8 @@ void Items::parseItemToml(const toml::table& itemTable, uint16_t id)
             if (value.is_integer()) abilities.skills[SKILL_SHIELD] = static_cast<int32_t>(value.as_integer()->get());
             break;
 
-        case ITEM_PARSE_SKILLFIST:
-            if (value.is_integer()) abilities.skills[SKILL_FIST] = static_cast<int32_t>(value.as_integer()->get());
+        case ITEM_PARSE_SKILLUNARMED:
+            if (value.is_integer()) abilities.skills[SKILL_UNARMED] = static_cast<int32_t>(value.as_integer()->get());
             break;
 
         case ITEM_PARSE_CRITICALHITAMOUNT:
