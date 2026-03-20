@@ -549,6 +549,7 @@
 	<monster name="Scorn of the Emperor" file="monsters/scorn_of_the_emperor.xml" />
 	<monster name="Scorpion" file="monsters/scorpion.xml" />
 	<monster name="Sea Serpent" file="monsters/sea_serpent.xml" />
+	<monster name="Seacrest Serpent" file="monsters/seacrest serpent.xml"/>
 	<monster name="Seagull" file="monsters/seagull.xml" />
 	<monster name="Serpent Spawn" file="monsters/serpent_spawn.xml" />
 	<monster name="Shaburak Demon" file="monsters/shaburak_demon.xml" />
@@ -650,7 +651,7 @@
 	<monster name="The Pit Lord" file="monsters/the_pit_lord.xml" />
 	<monster name="The Plasmother" file="monsters/the_plasmother.xml" />
 	<monster name="The Ruthless Herald" file="monsters/the_ruthless_herald.xml" />
-	<monster name="The Snapper" file="monsters/the_snapper.xml" />
+	<!-- <monster name="The Snapper" file="monsters/the_snapper.xml" /> -->
 	<monster name="The Weakened Count" file="monsters/the_weakened_count.xml" />
 	<monster name="Thief" file="monsters/thief.xml" />
 	<monster name="Thornback Tortoise" file="monsters/thornback_tortoise.xml" />
@@ -741,4 +742,177 @@
 	<monster name="Zugurosh" file="monsters/zugurosh.xml" />
 	<monster name="Zulazza the Corruptor" file="monsters/zulazza_the_corruptor.xml" />
 	<monster name="Zushuka" file="monsters/zushuka.xml" />
+
+	<!-- Bosses -->
+	<monster name="Abyssador" file="bosses/abyssador.xml" />
+	<monster name="Apocalypse" file="bosses/apocalypse.xml" />
+	<monster name="Apprentice Sheng" file="bosses/apprentice sheng.xml" />
+	<monster name="Arachir The Ancient One" file="bosses/arachir the ancient one.xml" />
+	<monster name="Armenius" file="bosses/armenius.xml" />
+	<monster name="Azerus" file="bosses/azerus.xml" />
+	<monster name="Azerus2" file="bosses/azerus2.xml" />
+	<monster name="Barbaria" file="bosses/barbaria.xml" />
+	<monster name="Baron Brute" file="bosses/baron brute.xml" />
+	<monster name="Bazir" file="bosses/bazir.xml" />
+	<monster name="Bibby Bloodbath" file="bosses/bibby bloodbath.xml" />
+	<monster name="Big Boss Trolliver" file="bosses/big boss trolliver.xml" />
+	<monster name="Boogey" file="bosses/boogey.xml" />
+	<monster name="Bretzecutioner" file="bosses/bretzecutioner.xml" />
+	<monster name="Bruise Payne" file="bosses/bruise payne.xml" />
+	<monster name="Brutus Bloodbeard" file="bosses/brutus bloodbeard.xml" />
+	<monster name="Bullwark" file="bosses/bullwark.xml" />
+	<monster name="Captain Jones" file="bosses/captain jones.xml" />
+	<monster name="Chikhaton" file="bosses/chikhaton.xml" />
+	<monster name="Chizzoron The Distorter" file="bosses/chizzoron the distorter.xml" />
+	<monster name="Clubarc The Plunderer" file="bosses/clubarc the plunderer.xml" />
+	<monster name="Coldheart" file="bosses/coldheart.xml" />
+	<monster name="Countess Sorrow" file="bosses/countess sorrow.xml" />
+	<monster name="Deadeye Devious" file="bosses/deadeye devious.xml" />
+	<monster name="Death Priest Shargon" file="bosses/death priest shargon.xml" />
+	<monster name="Deathbine" file="bosses/deathbine.xml" />
+	<monster name="Deathstrike" file="bosses/deathstrike.xml" />
+	<monster name="Demodras" file="bosses/demodras.xml" />
+	<monster name="Dharalion" file="bosses/dharalion.xml" />
+	<monster name="Diblis The Fair" file="bosses/diblis the fair.xml" />
+	<monster name="Dirtbeard" file="bosses/dirtbeard.xml" />
+	<monster name="Doctor Perhaps" file="bosses/doctor perhaps.xml" />
+	<monster name="Doomhowl" file="bosses/doomhowl.xml" />
+	<monster name="Dracola" file="bosses/dracola.xml" />
+	<monster name="Dreadwing" file="bosses/dreadwing.xml" />
+	<monster name="Energized Raging Mage" file="bosses/energized raging mage.xml" />
+	<monster name="Esmeralda" file="bosses/esmeralda.xml" />
+	<monster name="Ethershreck" file="bosses/ethershreck.xml" />
+	<monster name="Evil Mastermind" file="bosses/evil mastermind.xml" />
+	<monster name="Fatality" file="bosses/fatality.xml" />
+	<monster name="Fazzrah" file="bosses/fazzrah.xml" />
+	<monster name="Fernfang" file="bosses/fernfang.xml" />
+	<monster name="Ferumbras" file="bosses/ferumbras.xml" />
+	<monster name="Flameborn" file="bosses/flameborn.xml" />
+	<monster name="Fleshcrawler" file="bosses/fleshcrawler.xml" />
+	<monster name="Fluffy" file="bosses/fluffy.xml" />
+	<monster name="Foreman Kneebiter" file="bosses/foreman kneebiter.xml" />
+	<monster name="Freegoiz" file="bosses/freegoiz.xml" />
+	<monster name="Fury Of The Emperor" file="bosses/fury of the emperor.xml" />
+	<monster name="Furyosa" file="bosses/furyosa.xml" />
+	<monster name="Gaz'haragoth" file="bosses/gaz'haragoth.xml" />
+	<monster name="General Murius" file="bosses/general murius.xml" />
+	<monster name="Glitterscale" file="bosses/glitterscale.xml" />
+	<monster name="Glooth Fairy" file="bosses/glooth fairy.xml" />
+	<monster name="Gnomevil" file="bosses/gnomevil.xml" />
+	<monster name="Grand Mother Foulscale" file="bosses/grand mother foulscale.xml" />
+	<monster name="Grandfather Tridian" file="bosses/grandfather tridian.xml" />
+	<monster name="Gorgo" file="bosses/gorgo.xml" />
+	<monster name="Gravelord Oshuran" file="bosses/gravelord oshuran.xml" />
+	<monster name="Groam" file="bosses/groam.xml" />
+	<monster name="Grorlam" file="bosses/grorlam.xml" />
+	<monster name="Hairman The Huge" file="bosses/hairman the huge.xml" />
+	<monster name="Handmaiden" file="bosses/handmaiden.xml" />
+	<monster name="Haunter" file="bosses/haunter.xml" />
+	<monster name="Hemming" file="bosses/hemming.xml" />
+	<monster name="Heoni" file="bosses/heoni.xml" />
+	<monster name="Hide" file="bosses/hide.xml" />
+	<monster name="Horestis" file="bosses/horestis.xml" />
+	<monster name="Incineron" file="bosses/incineron.xml" />
+	<monster name="Infernatil" file="bosses/infernatil.xml" />
+	<monster name="Inky" file="bosses/inky.xml" />
+	<monster name="Jaul" file="bosses/jaul.xml" />
+	<monster name="Jesse The Wicked" file="bosses/jesse the wicked.xml" />
+	<monster name="Kerberos" file="bosses/kerberos.xml" />
+	<monster name="Koshei The Deathless" file="bosses/koshei the deathless.xml" />
+	<monster name="Kraknaknork'S Demon" file="bosses/kraknaknork's demon.xml" />
+	<monster name="Kraknaknork" file="bosses/kraknaknork.xml" />
+	<monster name="Lethal Lissy" file="bosses/lethal lissy.xml" />
+	<monster name="Leviathan" file="bosses/leviathan.xml" />
+	<monster name="Lisa" file="bosses/lisa.xml" />
+	<monster name="Lizard Abomination" file="bosses/lizard abomination.xml" />
+	<monster name="Mad Mage" file="bosses/mad mage.xml" />
+	<monster name="Mad Technomancer" file="bosses/mad technomancer.xml" />
+	<monster name="Man In The Cave" file="bosses/man in the cave.xml" />
+	<monster name="Massacre" file="bosses/massacre.xml" />
+	<monster name="Mawhawk" file="bosses/mawhawk.xml" />
+	<monster name="Menace" file="bosses/menace.xml" />
+	<monster name="Mephiles" file="bosses/mephiles.xml" />
+	<monster name="Minishabaal" file="bosses/minishabaal.xml" />
+	<monster name="Minotaur Wallbreaker" file="bosses/minotaur wallbreaker.xml" />
+	<monster name="Monstor" file="bosses/monstor.xml" />
+	<monster name="Mooh'Tah Master" file="bosses/mooh'tah master.xml" />
+	<monster name="Morik The Gladiator" file="bosses/morik the gladiator.xml" />
+	<monster name="Mr. Punish" file="bosses/mr. punish.xml" />
+	<monster name="Munster" file="bosses/munster.xml" />
+	<monster name="Mutated Zalamon" file="bosses/mutated zalamon.xml" />
+	<monster name="Necropharus" file="bosses/necropharus.xml" />
+	<monster name="Obujos" file="bosses/obujos.xml" />
+	<monster name="Paiz The Pauperizer" file="bosses/paiz the pauperizer.xml" />
+	<monster name="Pythius The Rotten" file="bosses/pythius the rotten.xml" />
+	<monster name="Raging Mage" file="bosses/raging mage.xml" />
+	<monster name="Renegade Orc" file="bosses/renegade orc.xml" />
+	<monster name="Ribstride" file="bosses/ribstride.xml" />
+	<monster name="Robby The Reckless" file="bosses/robby the reckless.xml" />
+	<monster name="Rocko" file="bosses/rocko.xml" />
+	<monster name="Ron The Ripper" file="bosses/ron the ripper.xml" />
+	<monster name="Rottie The Rotworm" file="bosses/rottie the rotworm.xml" />
+	<monster name="Rotworm Queen" file="bosses/rotworm queen.xml" />
+	<monster name="Rukor Zad" file="bosses/rukor zad.xml" />
+	<monster name="Scorn Of The Emperor" file="bosses/scorn of the emperor.xml" />
+	<monster name="Shardhead" file="bosses/shardhead.xml" />
+	<monster name="Sharptooth" file="bosses/sharptooth.xml" />
+	<monster name="Sir Valorcrest" file="bosses/sir valorcrest.xml" />
+	<monster name="Smuggler Baron Silvertoe" file="bosses/smuggler baron silvertoe.xml" />
+	<monster name="Snake God Essence" file="bosses/snake god essence.xml" />
+	<monster name="Snake Thing" file="bosses/snake thing.xml" />
+	<monster name="Spider Queen" file="bosses/spider queen.xml" />
+	<monster name="Spite Of The Emperor" file="bosses/spite of the emperor.xml" />
+	<monster name="Splasher" file="bosses/splasher.xml" />
+	<monster name="Stonecracker" file="bosses/stonecracker.xml" />
+	<monster name="Sulphur Scuttler" file="bosses/sulphur scuttler.xml" />
+	<monster name="Tanjis" file="bosses/tanjis.xml" />
+	<monster name="Teleskor" file="bosses/teleskor.xml" />
+	<monster name="Terofar" file="bosses/terofar.xml" />
+	<monster name="The Abomination" file="bosses/the abomination.xml" />
+	<monster name="The Axeorcist" file="bosses/the axeorcist.xml" />
+	<monster name="The Blightfather" file="bosses/the blightfather.xml" />
+	<monster name="The Bloodtusk" file="bosses/the bloodtusk.xml" />
+	<monster name="The Bloodweb" file="bosses/the bloodweb.xml" />
+	<monster name="The Collector" file="bosses/the collector.xml" />
+	<monster name="The Count" file="bosses/the count.xml" />
+	<monster name="The Dreadorian" file="bosses/the dreadorian.xml" />
+	<monster name="The Evil Eye" file="bosses/the evil eye.xml" />
+	<monster name="The Frog Prince" file="bosses/the frog prince.xml" />
+	<monster name="The Handmaiden" file="bosses/the handmaiden.xml" />
+	<monster name="The Horned Fox" file="bosses/the horned fox.xml" />
+	<monster name="The Keeper" file="bosses/the keeper.xml" />
+	<monster name="The Imperor" file="bosses/the imperor.xml" />
+	<monster name="The Many" file="bosses/the many.xml" />
+	<monster name="The Noxious Spawn" file="bosses/the noxious spawn.xml" />
+	<monster name="The Old Widow" file="bosses/the old widow.xml" />
+	<monster name="The Pale Count" file="bosses/the pale count.xml" />
+	<monster name="The Plasmother" file="bosses/the plasmother.xml" />
+	<monster name="The Ravager" file="bosses/the ravager.xml" />
+	<monster name="The Snapper" file="bosses/the_snapper.xml" />
+	<monster name="The Weakened Count" file="bosses/the weakened count.xml" />
+	<monster name="Thul" file="bosses/thul.xml" />
+	<monster name="Tiquandas Revenge" file="bosses/tiquandas revenge.xml" />
+	<monster name="Tirecz" file="bosses/tirecz.xml" />
+	<monster name="Tormentor" file="bosses/tormentor.xml" />
+	<monster name="Tremorak" file="bosses/tremorak.xml" />
+	<monster name="Tromphonyte" file="bosses/tromphonyte.xml" />
+	<monster name="Ungreez" file="bosses/ungreez.xml" />
+	<monster name="Verminor" file="bosses/verminor.xml" />
+	<monster name="Versperoth" file="bosses/versperoth.xml" />
+	<monster name="Warlord Ruzad" file="bosses/warlord ruzad.xml" />
+	<monster name="Wrath Of The Emperor" file="bosses/wrath of the emperor.xml" />
+	<monster name="Xenia" file="bosses/xenia.xml" />
+	<monster name="Yaga The Crone" file="bosses/yaga the crone.xml" />
+	<monster name="Yakchal" file="bosses/yakchal.xml" />
+	<monster name="Zanakeph" file="bosses/zanakeph.xml" />
+	<monster name="Zarabustor" file="bosses/zarabustor.xml" />
+	<monster name="Zevelon Duskbringer" file="bosses/zevelon duskbringer.xml" />
+	<monster name="Zomba" file="bosses/zomba.xml" />
+	<monster name="Zulazza The Corruptor" file="bosses/zulazza the corruptor.xml" />
+	<monster name="Zushuka" file="bosses/zushuka.xml" />
+
+	<!--  Customs  -->
+	<monster name="Trailemaw" file="customs/trailemaw.xml"/>
+	<monster name="Training Monk" file="customs/Training Monk.xml"/>
+
 </monsters>

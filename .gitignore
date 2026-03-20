@@ -29,3 +29,8 @@ db-data
 
 # Myaac files
 data/myaac-xml-files
+
+# Data Files
+data/world
+data/npc
+data/monster

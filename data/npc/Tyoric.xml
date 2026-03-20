@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<npc name="Tyoric" script="default.lua" walkinterval="2000" floorchange="0">
-	<health now="100" max="100" />
-	<look type="134" head="57" body="59" legs="40" feet="76" addons="0" />
+<npc name="Tyoric" script="distance.lua" walkinterval="2000" walkradius="2" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="129" head="0" body="40" legs="58" feet="38" addons="3" mount="0"/>
 	<parameters>
-		<parameter key="module_shop" value="1" />
-		<parameter key="shop_sellable" value="crossbow,2455,150;bow,2456,130" />
-		<parameter key="shop_buyable" value="crossbow,2455,360;bow,2456,200;spear,2389,20;poison arrow,2545,18;bolt,2543,3;arrow,2544,2" />
-	</parameters>
+		<parameter key="message_greet" value="Welcome to my shop, |PLAYERNAME|."/>
+        <parameter key="message_farewell" value="Goodbye, please try your new weapons in backyard, not here."/>
+		<parameter key="message_walkaway" value="Bye." />
+    </parameters>
 </npc>
+
