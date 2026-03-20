@@ -7,6 +7,9 @@
 
 # Build Output
 /build
+Black-Tek-Server
+Black-Tek-Server.make
+Makefile
 
 *.dll
 *.exe
@@ -26,3 +29,11 @@ db-data
 
 # Log files
 blacktek.log
+
+# Myaac files
+data/myaac-xml-files
+
+# Data files
+data/npc
+data/monster
+data/world
